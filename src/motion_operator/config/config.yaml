@@ -1,0 +1,10 @@
+# ROS2 Parameters
+/**:
+  ros__parameters:
+    InitAddr: "/home/robit/colcon_ws/src/motion_operator/motion/init.yaml"
+    KickRAddr: "/home/robit/colcon_ws/src/motion_operator/motion/down2.yaml"
+    KickLAddr: "/home/robit/colcon_ws/src/motion_operator/motion/down2.yaml"
+    FrontRiseAddr: "/home/robit/colcon_ws/src/motion_operator/motion/down2.yaml"
+    BackRiseAddr: "/home/robit/colcon_ws/src/motion_operator/motion/down2.yaml"
+    RightRiseAddr: "/home/robit/colcon_ws/src/motion_operator/motion/down2.yaml"
+    LeftRiseAddr: "/home/robit/colcon_ws/src/motion_operator/motion/down2.yaml"
