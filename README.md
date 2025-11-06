@@ -1,6 +1,14 @@
 # colcon_ws 
 > for robit 20th intern project
 ---
+## how to build
+```bash
+git clone https://github.com/ROBIT-KOR-teamHumanoid
+cw
+colcon build --packages-select humanoid_interfaces dynamixel_rdk_msgs
+sb
+colcon build --packages-skip humanoid_interfaces dynamixel_rdk_msgs
+```
 ## how to run 
 ### dynamixel_rdk 
 ```bash
