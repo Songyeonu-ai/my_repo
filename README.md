@@ -6,6 +6,7 @@
 3. 성공시 ros2 lifecycle set dynamixel_rdk_node activate
 
 **ik_walk**
+
 ros2 run ik_walk ik_walk
 
 **camera**
