@@ -3,7 +3,7 @@
 ---
 ## how to build
 ```bash
-git clone https://github.com/ROBIT-KOR-teamHumanoid
+git clone https://github.com/ROBIT-KOR-teamHumanoid/colcon_ws.git
 cw
 colcon build --packages-select humanoid_interfaces dynamixel_rdk_msgs
 sb
