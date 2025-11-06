@@ -1,0 +1,16 @@
+float64[] red1_p1
+float64[] red1_p2
+float64[] red2_p1
+float64[] red2_p2
+float64[] blue1_p1
+float64[] blue1_p2
+float64[] blue2_p1
+float64[] blue2_p2
+int64 liner_abs_x
+int64 liner_abs_y
+int64 linel_abs_x
+int64 linel_abs_y
+int64 liner_x
+int64 liner_y
+int64 linel_x
+int64 linel_y

@@ -1,0 +1,9 @@
+int64[] ball_x
+int64[] ball_y
+int64[] ball_dis
+int64[] goal_x
+int64[] goal_y
+int64[] goal_dis
+int64[] hurdle_x
+int64[] hurdle_y
+int64[] hurdle_dis
