@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/robocup_vision25/ament_cmake_core/robocup_vision25Config.cmake

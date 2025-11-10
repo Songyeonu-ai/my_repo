@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/launch/dynamixel_rdk.launch.py

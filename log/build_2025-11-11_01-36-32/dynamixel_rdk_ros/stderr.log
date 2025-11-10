@@ -1,0 +1,23 @@
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel.cpp:[m[K In member function ‘[01m[Kbool dynamixel_rdk_ros::Dynamixel::get_dynamixel_status(dynamixel::GroupSyncRead&)[m[K’:
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel.cpp:133:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_status_int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  133 |   int [01;35m[Kerror_status_int[m[K = static_cast<int>(error_status);
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_ctrl.cpp:[m[K In member function ‘[01m[Kbool dynamixel_rdk_ros::DynamixelCtrl::read_dynamixel_status()[m[K’:
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_ctrl.cpp:337:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdynamixel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  337 |     for (auto & [01;35m[Kdynamixel[m[K : dynamixels) {
+      |                 [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:[m[K In member function ‘[01m[Kvoid dynamixel_rdk_ros::DynamixelRDKNode::dynamixel_callback(dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:210:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmotor[m[K’
+  210 |   for (auto & motor : msg->[01;31m[Kmotor[m[K) {
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:211:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class dynamixel_rdk_ros::DynamixelCtrl[m[K’ {aka ‘[01m[Kclass dynamixel_rdk_ros::DynamixelCtrl[m[K’} has no member named ‘[01m[Ksingle_write[m[K’; did you mean ‘[01m[Ksync_write[m[K’?
+  211 |     dynamixel_ctrl_->[01;31m[Ksingle_write[m[K(static_cast < uint8_t > 22, motor.goal_position, motor.profile_velocity,motor.profile_acceleration);
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+      |                      [32m[Ksync_write[m[K
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:211:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before numeric constant
+  211 |     dynamixel_ctrl_->single_write(static_cast < uint8_t > [01;31m[K2[m[K[32m[K2[m[K, motor.goal_position, motor.profile_velocity,motor.profile_acceleration);
+      |                                                           [01;31m[K^[m[K[32m[K~[m[K
+      |                                                           [32m[K([m[K
+gmake[2]: *** [CMakeFiles/dynamixel_rdk_node.dir/build.make:76: CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_rdk_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

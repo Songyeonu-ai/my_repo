@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_py/dynamixel_rdk_msgs/msg/_dynamixel_msgs_s.c

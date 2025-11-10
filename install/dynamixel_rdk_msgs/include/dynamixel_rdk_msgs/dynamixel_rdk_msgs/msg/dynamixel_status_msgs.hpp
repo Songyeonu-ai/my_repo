@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp

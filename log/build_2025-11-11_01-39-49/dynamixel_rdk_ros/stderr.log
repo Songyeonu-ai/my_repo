@@ -1,0 +1,23 @@
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:[m[K In member function ‘[01m[Kvoid dynamixel_rdk_ros::DynamixelRDKNode::dynamixel_callback(dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:211:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdynamixel_rdk_ros::DynamixelCtrl::sync_write(uint8_t, dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >::_goal_position_type&, dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >::_profile_velocity_type&, dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >::_profile_acceleration_type&)[m[K’
+  211 |     [01;31m[Kdynamixel_ctrl_->sync_write([m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  212 | [01;31m[K        static_cast<uint8_t>(22),          // 모터 ID, 필요시 적절히 바꾸세요[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  213 | [01;31m[K        msg->goal_position,[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K     
+  214 | [01;31m[K        msg->profile_velocity,[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K  
+  215 | [01;31m[K        msg->profile_acceleration[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  216 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                           
+In file included from [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/../include/dynamixel_rdk_ros/dynamixel_rdk_node.hpp:21[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:17[m[K:
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/include/dynamixel_rdk_ros/dynamixel_ctrl.hpp:49:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid dynamixel_rdk_ros::DynamixelCtrl::sync_write(std::vector<double>, std::vector<double>, std::vector<double>)[m[K’
+   49 |   void [01;36m[Ksync_write[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/include/dynamixel_rdk_ros/dynamixel_ctrl.hpp:49:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+gmake[2]: *** [CMakeFiles/dynamixel_rdk_node.dir/build.make:76: CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_rdk_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

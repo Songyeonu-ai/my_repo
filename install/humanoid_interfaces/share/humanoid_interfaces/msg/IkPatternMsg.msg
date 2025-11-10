@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/humanoid_interfaces/msg/IkPatternMsg.msg

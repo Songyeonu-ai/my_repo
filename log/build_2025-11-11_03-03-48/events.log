@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (-) JobUnselected: {'identifier': 'dynamixel_rdk_msgs'}
+[0.000928] (-) JobUnselected: {'identifier': 'dynamixel_rdk_ros'}
+[0.000953] (-) JobUnselected: {'identifier': 'ebimu'}
+[0.000963] (-) JobUnselected: {'identifier': 'humanoid_interfaces'}
+[0.000972] (-) JobUnselected: {'identifier': 'ik_walk'}
+[0.000980] (-) JobUnselected: {'identifier': 'ocam_ros2'}
+[0.000987] (-) JobUnselected: {'identifier': 'robocup_vision25'}
+[0.000995] (-) JobUnselected: {'identifier': 'tune_walk'}
+[0.001004] (master_jo) JobQueued: {'identifier': 'master_jo', 'dependencies': OrderedDict()}
+[0.001015] (master_jo) JobStarted: {'identifier': 'master_jo'}
+[0.005142] (master_jo) JobProgress: {'identifier': 'master_jo', 'progress': 'cmake'}
+[0.006407] (master_jo) JobProgress: {'identifier': 'master_jo', 'progress': 'build'}
+[0.006539] (master_jo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yu/colcon_ws/build/master_jo', '--', '-j8', '-l8'], 'cwd': '/home/yu/colcon_ws/build/master_jo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yu/colcon_ws/install/dynamixel_rdk_msgs/lib:/home/yu/colcon_ws/install/humanoid_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yu'), ('OLDPWD', '/home/yu/colcon_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/yu/.nvm/versions/node/v22.21.1/bin'), ('NVM_INC', '/home/yu/.nvm/versions/node/v22.21.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '793'), ('SYSTEMD_EXEC_PID', '1390'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '117290'), ('NVM_DIR', '/home/yu/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yu/colcon_ws/install:/home/yu/ros2_ws/install:/home/yu/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yu'), ('JOURNAL_STREAM', '8:14029'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yu'), ('STM32_PRG_PATH', '/home/yu/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yu/.nvm/versions/node/v22.21.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yu:@/tmp/.ICE-unix/910,unix/yu:/tmp/.ICE-unix/910'), ('INVOCATION_ID', '7ef626dc8b3643c4880be660672d5c52'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XCW4F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/install/python_parameter_tutorial:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea71cf9-c793-4f47-9a86-c26070986e3f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yu/colcon_ws/build/master_jo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yu/colcon_ws/install/dynamixel_rdk_msgs/local/lib/python3.10/dist-packages:/home/yu/ros2_ws/install/python_parameter_tutorial/lib/python3.10/site-packages:/home/yu/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:/home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.034280] (master_jo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target master_jo_node\x1b[0m\n'}
+[0.049615] (master_jo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/forward.cpp.o\x1b[0m\n'}
+[0.049760] (master_jo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/player.cpp.o\x1b[0m\n'}
+[0.049798] (master_jo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o\x1b[0m\n'}
+[0.100059] (-) TimerEvent: {}
+[0.201920] (-) TimerEvent: {}
+[0.302147] (-) TimerEvent: {}
+[0.402377] (-) TimerEvent: {}
+[0.417114] (master_jo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/player.hpp:11\x1b[m\x1b[K,\n'}
+[0.417270] (master_jo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:1\x1b[m\x1b[K:\n'}
+[0.417307] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo.hpp:3:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_PLAYING\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.417339] (master_jo) StderrLine: {'line': b'    3 | int state = \x1b[01;31m\x1b[KSTATE_PLAYING\x1b[m\x1b[K;\n'}
+[0.417364] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.437755] (master_jo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/player.hpp:11\x1b[m\x1b[K,\n'}
+[0.437897] (master_jo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/forward.hpp:4\x1b[m\x1b[K,\n'}
+[0.437936] (master_jo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/forward.cpp:1\x1b[m\x1b[K:\n'}
+[0.437966] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo.hpp:3:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_PLAYING\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.437996] (master_jo) StderrLine: {'line': b'    3 | int state = \x1b[01;31m\x1b[KSTATE_PLAYING\x1b[m\x1b[K;\n'}
+[0.438022] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.503297] (-) TimerEvent: {}
+[0.603538] (-) TimerEvent: {}
+[0.705061] (-) TimerEvent: {}
+[0.805370] (-) TimerEvent: {}
+[0.905650] (-) TimerEvent: {}
+[1.005928] (-) TimerEvent: {}
+[1.106391] (-) TimerEvent: {}
+[1.206718] (-) TimerEvent: {}
+[1.307035] (-) TimerEvent: {}
+[1.327085] (master_jo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/player.hpp:11\x1b[m\x1b[K,\n'}
+[1.327252] (master_jo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/forward.hpp:4\x1b[m\x1b[K,\n'}
+[1.327292] (master_jo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:10\x1b[m\x1b[K,\n'}
+[1.327328] (master_jo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.327366] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo.hpp:3:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_PLAYING\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.327401] (master_jo) StderrLine: {'line': b'    3 | int state = \x1b[01;31m\x1b[KSTATE_PLAYING\x1b[m\x1b[K;\n'}
+[1.327434] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.379786] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::Player::gameStateControl(bool, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.380017] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_INITIAL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.380075] (master_jo) StderrLine: {'line': b'   28 |     case \x1b[01;31m\x1b[KSTATE_INITIAL\x1b[m\x1b[K:\n'}
+[1.380103] (master_jo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.384644] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:31:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_READY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.384812] (master_jo) StderrLine: {'line': b'   31 |     case \x1b[01;31m\x1b[KSTATE_READY\x1b[m\x1b[K:\n'}
+[1.384855] (master_jo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.388072] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_SET\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.388127] (master_jo) StderrLine: {'line': b'   34 |     case \x1b[01;31m\x1b[KSTATE_SET\x1b[m\x1b[K:\n'}
+[1.388159] (master_jo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.392936] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:37:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_PLAYING\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.392976] (master_jo) StderrLine: {'line': b'   37 |     case \x1b[01;31m\x1b[KSTATE_PLAYING\x1b[m\x1b[K:\n'}
+[1.393007] (master_jo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.398005] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:40:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_FINISHED\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.398047] (master_jo) StderrLine: {'line': b'   40 |     case \x1b[01;31m\x1b[KSTATE_FINISHED\x1b[m\x1b[K:\n'}
+[1.398098] (master_jo) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.398143] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void master_jo::Player::selectRobotState(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.398181] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:48:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KisPenalty\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.398219] (master_jo) StderrLine: {'line': b'   48 | void Player::selectRobotState(\x1b[01;35m\x1b[Kbool isPenalty\x1b[m\x1b[K) {\n'}
+[1.398330] (master_jo) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.398432] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool master_jo::Player::walkStart(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.398477] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:72:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KikEnd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.398526] (master_jo) StderrLine: {'line': b'   72 |   return master->\x1b[01;31m\x1b[KikEnd\x1b[m\x1b[K.ikend;\n'}
+[1.398564] (master_jo) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.398602] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool master_jo::Player::walkStop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.398642] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:81:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KikEnd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.398678] (master_jo) StderrLine: {'line': b'   81 |   return master->\x1b[01;31m\x1b[KikEnd\x1b[m\x1b[K.ikend;\n'}
+[1.398714] (master_jo) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.398970] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool master_jo::Player::visionPublish(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.399086] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:114:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2vision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.399186] (master_jo) StderrLine: {'line': b'  114 |   master->\x1b[01;31m\x1b[Kmaster2vision\x1b[m\x1b[K.scanmode = scan_mode;\n'}
+[1.399224] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.399258] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:115:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2vision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.399296] (master_jo) StderrLine: {'line': b'  115 |   master->\x1b[01;31m\x1b[Kmaster2vision\x1b[m\x1b[K.tilt = -45;\n'}
+[1.399333] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.399369] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:116:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2vision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.399496] (master_jo) StderrLine: {'line': b'  116 |   master->\x1b[01;31m\x1b[Kmaster2vision\x1b[m\x1b[K.pan = 0;\n'}
+[1.399559] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.399603] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.399649] (master_jo) StderrLine: {'line': b'  113 | bool Player::visionPublish(int scan_mode, \x1b[01;35m\x1b[Kint pan\x1b[m\x1b[K, int tilt) {\n'}
+[1.399688] (master_jo) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.399723] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktilt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.399758] (master_jo) StderrLine: {'line': b'  113 | bool Player::visionPublish(int scan_mode, int pan, \x1b[01;35m\x1b[Kint tilt\x1b[m\x1b[K) {\n'}
+[1.399792] (master_jo) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.399826] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool master_jo::Player::udpPublish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.399880] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:122:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.399933] (master_jo) StderrLine: {'line': b'  122 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.robotnum = master->gameControlData.robotnum;\n'}
+[1.399966] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.399998] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:123:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400031] (master_jo) StderrLine: {'line': b'  123 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.robotstate = robot_state;\n'}
+[1.400063] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.400098] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:124:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400132] (master_jo) StderrLine: {'line': b'  124 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.robotcoorx = static_cast<int>(master->local.robot_x);\n'}
+[1.400166] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.400222] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:124:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400263] (master_jo) StderrLine: {'line': b'  124 |   master->master2udp.robotcoorx = static_cast<int>(master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.robot_x);\n'}
+[1.400295] (master_jo) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.400327] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:125:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400359] (master_jo) StderrLine: {'line': b'  125 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.robotcoory = static_cast<int>(master->local.robot_y);\n'}
+[1.400390] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.400422] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:125:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400454] (master_jo) StderrLine: {'line': b'  125 |   master->master2udp.robotcoory = static_cast<int>(master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.robot_y);\n'}
+[1.400486] (master_jo) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.400522] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:126:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400556] (master_jo) StderrLine: {'line': b'  126 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.robotimuyaw = static_cast<int>(master->imu.yaw);\n'}
+[1.400588] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.400619] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:126:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kimu\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400651] (master_jo) StderrLine: {'line': b'  126 |   master->master2udp.robotimuyaw = static_cast<int>(master->\x1b[01;31m\x1b[Kimu\x1b[m\x1b[K.yaw);\n'}
+[1.400683] (master_jo) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.400714] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:127:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400747] (master_jo) StderrLine: {'line': b'  127 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.balldist = 0;\n'}
+[1.400778] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.400809] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:128:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400844] (master_jo) StderrLine: {'line': b'  128 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.ballcoorx = static_cast<int>(master->local.ball_x);\n'}
+[1.400880] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.400919] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:128:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400952] (master_jo) StderrLine: {'line': b'  128 |   master->master2udp.ballcoorx = static_cast<int>(master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.ball_x);\n'}
+[1.400983] (master_jo) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.401014] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:129:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401048] (master_jo) StderrLine: {'line': b'  129 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.ballcoory = static_cast<int>(master->local.ball_y);\n'}
+[1.401081] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.401112] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:129:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401146] (master_jo) StderrLine: {'line': b'  129 |   master->master2udp.ballcoory = static_cast<int>(master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.ball_y);\n'}
+[1.401177] (master_jo) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.401208] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:130:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401242] (master_jo) StderrLine: {'line': b'  130 |   master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.myteam = static_cast<int>(master->gameControlData.myteam);\n'}
+[1.401274] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.401304] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:132:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401336] (master_jo) StderrLine: {'line': b'  132 |   if (static_cast<int>(master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_d) == 0) {\n'}
+[1.401367] (master_jo) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.401398] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:133:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401431] (master_jo) StderrLine: {'line': b'  133 |     master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.ballcoorx = 0;\n'}
+[1.401462] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.401492] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:134:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401527] (master_jo) StderrLine: {'line': b'  134 |     master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K.ballcoory = 0;\n'}
+[1.401558] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.401589] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool master_jo::Player::localPublish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.401620] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:142:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2local\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401656] (master_jo) StderrLine: {'line': b'  142 |     master->\x1b[01;31m\x1b[Kmaster2local\x1b[m\x1b[K.targetx = 0;\n'}
+[1.401687] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.401717] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:143:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2local\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401754] (master_jo) StderrLine: {'line': b'  143 |     master->\x1b[01;31m\x1b[Kmaster2local\x1b[m\x1b[K.targety = 0;\n'}
+[1.401790] (master_jo) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.407093] (-) TimerEvent: {}
+[1.507326] (-) TimerEvent: {}
+[1.535362] (master_jo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.535541] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:99:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSTATE_PLAYING\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.535584] (master_jo) StderrLine: {'line': b'   99 |   int state = \x1b[01;31m\x1b[KSTATE_PLAYING\x1b[m\x1b[K;\n'}
+[1.535623] (master_jo) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.548110] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.548282] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:16:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.548329] (master_jo) StderrLine: {'line': b'   16 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.548386] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.554711] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.554847] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:93:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.554898] (master_jo) StderrLine: {'line': b'   93 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.554936] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.555361] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.555405] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:119:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.555440] (master_jo) StderrLine: {'line': b'  119 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.555473] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.555556] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.555614] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:138:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.555648] (master_jo) StderrLine: {'line': b'  138 | MasterJoNode::on_cleanup(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.555681] (master_jo) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.555763] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_shutdown(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.555818] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:146:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.555855] (master_jo) StderrLine: {'line': b'  146 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.555894] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.562083] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::imuCallback(humanoid_interfaces::msg::ImuMsg_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.562353] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:227:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kimu\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.562413] (master_jo) StderrLine: {'line': b'  227 |   master->\x1b[01;31m\x1b[Kimu\x1b[m\x1b[K.pitch = msg->pitch;\n'}
+[1.562444] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.562914] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:228:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kimu\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.562953] (master_jo) StderrLine: {'line': b'  228 |   master->\x1b[01;31m\x1b[Kimu\x1b[m\x1b[K.roll = msg->roll;\n'}
+[1.562978] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.563001] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:229:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kimu\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.563028] (master_jo) StderrLine: {'line': b'  229 |   master->\x1b[01;31m\x1b[Kimu\x1b[m\x1b[K.yaw = msg->yaw;\n'}
+[1.563049] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.563788] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::visionCallback(humanoid_interfaces::msg::Robocupvision25_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.563841] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:234:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.563868] (master_jo) StderrLine: {'line': b'  234 |   master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_2d_x = msg->ball_2d_x;\n'}
+[1.563893] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.563917] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:235:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.563939] (master_jo) StderrLine: {'line': b'  235 |   master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_2d_y = msg->ball_2d_y;\n'}
+[1.563960] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.563979] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:236:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.563999] (master_jo) StderrLine: {'line': b'  236 |   master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_cam_x = msg->ball_cam_x;\n'}
+[1.564019] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.564040] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:237:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.564063] (master_jo) StderrLine: {'line': b'  237 |   master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_cam_y = msg->ball_cam_y;\n'}
+[1.564087] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.564107] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:238:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.564131] (master_jo) StderrLine: {'line': b'  238 |   master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_d = msg->ball_d;\n'}
+[1.564152] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.564171] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:239:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kvision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.564191] (master_jo) StderrLine: {'line': b'  239 |   master->\x1b[01;31m\x1b[Kvision\x1b[m\x1b[K.ball_speed_level = msg->ball_speed_level;\n'}
+[1.564213] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.565794] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::ikCallback(humanoid_interfaces::msg::IkEndMsg_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.565968] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:244:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KikEnd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.566012] (master_jo) StderrLine: {'line': b'  244 |   master->\x1b[01;31m\x1b[KikEnd\x1b[m\x1b[K.ikend = msg->ikend;\n'}
+[1.566050] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.566744] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::localCallback(humanoid_interfaces::msg::Robocuplocalization25_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.566830] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:263:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.566887] (master_jo) StderrLine: {'line': b'  263 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.robot_x = msg->robot_x;\n'}
+[1.566926] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.566960] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:264:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567030] (master_jo) StderrLine: {'line': b'  264 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.robot_y = msg->robot_y;\n'}
+[1.567065] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567129] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:265:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567166] (master_jo) StderrLine: {'line': b'  265 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.ball_x = msg->ball_x;\n'}
+[1.567198] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567228] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:266:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567260] (master_jo) StderrLine: {'line': b'  266 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.ball_y = msg->ball_y;\n'}
+[1.567291] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567321] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:267:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567355] (master_jo) StderrLine: {'line': b'  267 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.ball_speed_x = msg->ball_speed_x;\n'}
+[1.567386] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567417] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:268:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567448] (master_jo) StderrLine: {'line': b'  268 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.ball_speed_y = msg->ball_speed_y;\n'}
+[1.567479] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567509] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:269:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567540] (master_jo) StderrLine: {'line': b'  269 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle0_x = msg->obstacle0_x;\n'}
+[1.567575] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567606] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:270:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567641] (master_jo) StderrLine: {'line': b'  270 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle0_y = msg->obstacle0_y;\n'}
+[1.567671] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567702] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:271:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567737] (master_jo) StderrLine: {'line': b'  271 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle1_x = msg->obstacle1_x;\n'}
+[1.567768] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567798] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:272:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567830] (master_jo) StderrLine: {'line': b'  272 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle1_y = msg->obstacle1_y;\n'}
+[1.567860] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567899] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:273:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.567933] (master_jo) StderrLine: {'line': b'  273 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle2_x = msg->obstacle2_x;\n'}
+[1.567964] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567995] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:274:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.568027] (master_jo) StderrLine: {'line': b'  274 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle2_y = msg->obstacle2_y;\n'}
+[1.568058] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.568088] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:275:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.568124] (master_jo) StderrLine: {'line': b'  275 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle3_x = msg->obstacle3_x;\n'}
+[1.568154] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.568187] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:276:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.568218] (master_jo) StderrLine: {'line': b'  276 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle3_y = msg->obstacle3_y;\n'}
+[1.568248] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.568278] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:277:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.568312] (master_jo) StderrLine: {'line': b'  277 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle_x = msg->obstacle_x;\n'}
+[1.568342] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.568373] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:278:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.568404] (master_jo) StderrLine: {'line': b'  278 |   master->\x1b[01;31m\x1b[Klocal\x1b[m\x1b[K.obstacle_y = msg->obstacle_y;\n'}
+[1.568434] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.570111] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::udpCallback(humanoid_interfaces::msg::Udp2master_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.570154] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:284:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570190] (master_jo) StderrLine: {'line': b'  284 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[i].robotnum = msg->robotnum;\n'}
+[1.570221] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570253] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:285:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570285] (master_jo) StderrLine: {'line': b'  285 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[i].robotcase = msg->robotcase;\n'}
+[1.570316] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570346] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:286:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570378] (master_jo) StderrLine: {'line': b'  286 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[i].localx = msg->localx;\n'}
+[1.570408] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570438] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:287:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570469] (master_jo) StderrLine: {'line': b'  287 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[i].localy = msg->localy;\n'}
+[1.570498] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570533] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:288:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570563] (master_jo) StderrLine: {'line': b'  288 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[i].localyaw = msg->localyaw;\n'}
+[1.570593] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570623] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:289:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570654] (master_jo) StderrLine: {'line': b'  289 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[i].balldist = msg->balldist;\n'}
+[1.570684] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570714] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:291:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kudp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570748] (master_jo) StderrLine: {'line': b'  291 |   master->\x1b[01;31m\x1b[Kudp\x1b[m\x1b[K[3].balldist = 0;\n'}
+[1.570778] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.570809] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::motionCallback(humanoid_interfaces::msg::MotionOperator_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.570843] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:296:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KmotionEnd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570878] (master_jo) StderrLine: {'line': b'  296 |   master->\x1b[01;31m\x1b[KmotionEnd\x1b[m\x1b[K.motion_num = msg->motion_num;\n'}
+[1.570909] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.570939] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:297:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KmotionEnd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.570971] (master_jo) StderrLine: {'line': b'  297 |   master->\x1b[01;31m\x1b[KmotionEnd\x1b[m\x1b[K.motion_end = msg->motion_end;\n'}
+[1.571001] (master_jo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.576614] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid master_jo::MasterJoNode::robocup_master()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.576935] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:338:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2vision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.577080] (master_jo) StderrLine: {'line': b'  338 |     vision_pub->publish(master->\x1b[01;31m\x1b[Kmaster2vision\x1b[m\x1b[K);\n'}
+[1.577109] (master_jo) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.577131] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:339:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KgameControlReturnData\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KgameControlData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.577157] (master_jo) StderrLine: {'line': b'  339 |     gamecontrol_pub->publish(master->\x1b[01;31m\x1b[KgameControlReturnData\x1b[m\x1b[K);\n'}
+[1.577180] (master_jo) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.577201] (master_jo) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KgameControlData\x1b[m\x1b[K\n'}
+[1.577223] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:340:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2local\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.577247] (master_jo) StderrLine: {'line': b'  340 |     local_pub->publish(master->\x1b[01;31m\x1b[Kmaster2local\x1b[m\x1b[K);\n'}
+[1.577267] (master_jo) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.577287] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:341:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmaster2udp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.577307] (master_jo) StderrLine: {'line': b'  341 |     udp_pub->publish(master->\x1b[01;31m\x1b[Kmaster2udp\x1b[m\x1b[K);\n'}
+[1.577331] (master_jo) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.577351] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:343:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass master_jo::MasterRcko\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kmotion\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.577372] (master_jo) StderrLine: {'line': b'  343 |       motionPub->publish(master->\x1b[01;31m\x1b[Kmotion\x1b[m\x1b[K);\n'}
+[1.577392] (master_jo) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.607434] (-) TimerEvent: {}
+[1.663954] (master_jo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:118: CMakeFiles/master_jo_node.dir/src/player.cpp.o] Error 1\n'}
+[1.664179] (master_jo) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.673269] (master_jo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:90: CMakeFiles/master_jo_node.dir/src/forward.cpp.o] Error 1\n'}
+[1.707527] (-) TimerEvent: {}
+[1.808406] (-) TimerEvent: {}
+[1.908700] (-) TimerEvent: {}
+[2.009138] (-) TimerEvent: {}
+[2.109393] (-) TimerEvent: {}
+[2.209753] (-) TimerEvent: {}
+[2.310072] (-) TimerEvent: {}
+[2.410354] (-) TimerEvent: {}
+[2.510771] (-) TimerEvent: {}
+[2.611006] (-) TimerEvent: {}
+[2.711242] (-) TimerEvent: {}
+[2.811540] (-) TimerEvent: {}
+[2.911787] (-) TimerEvent: {}
+[3.012025] (-) TimerEvent: {}
+[3.112307] (-) TimerEvent: {}
+[3.214918] (-) TimerEvent: {}
+[3.315140] (-) TimerEvent: {}
+[3.415365] (-) TimerEvent: {}
+[3.515587] (-) TimerEvent: {}
+[3.615812] (-) TimerEvent: {}
+[3.716047] (-) TimerEvent: {}
+[3.818270] (-) TimerEvent: {}
+[3.920624] (-) TimerEvent: {}
+[4.020895] (-) TimerEvent: {}
+[4.121211] (-) TimerEvent: {}
+[4.221535] (-) TimerEvent: {}
+[4.321866] (-) TimerEvent: {}
+[4.422166] (-) TimerEvent: {}
+[4.522460] (-) TimerEvent: {}
+[4.622837] (-) TimerEvent: {}
+[4.723351] (-) TimerEvent: {}
+[4.824505] (-) TimerEvent: {}
+[4.924756] (-) TimerEvent: {}
+[5.024985] (-) TimerEvent: {}
+[5.126054] (-) TimerEvent: {}
+[5.226301] (-) TimerEvent: {}
+[5.326554] (-) TimerEvent: {}
+[5.426797] (-) TimerEvent: {}
+[5.527143] (-) TimerEvent: {}
+[5.627466] (-) TimerEvent: {}
+[5.727780] (-) TimerEvent: {}
+[5.827976] (-) TimerEvent: {}
+[5.928230] (-) TimerEvent: {}
+[6.028588] (-) TimerEvent: {}
+[6.128911] (-) TimerEvent: {}
+[6.229238] (-) TimerEvent: {}
+[6.329489] (-) TimerEvent: {}
+[6.429827] (-) TimerEvent: {}
+[6.524173] (master_jo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:104: CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o] Error 1\n'}
+[6.524310] (master_jo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_jo_node.dir/all] Error 2\n'}
+[6.524479] (master_jo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.525759] (master_jo) CommandEnded: {'returncode': 2}
+[6.529866] (master_jo) JobEnded: {'identifier': 'master_jo', 'rc': 2}
+[6.530518] (-) TimerEvent: {}
+[6.540221] (-) EventReactorShutdown: {}

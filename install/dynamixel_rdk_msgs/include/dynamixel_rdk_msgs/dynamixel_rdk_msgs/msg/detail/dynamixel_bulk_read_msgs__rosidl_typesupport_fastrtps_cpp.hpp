@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_typesupport_fastrtps_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__rosidl_typesupport_fastrtps_cpp.hpp

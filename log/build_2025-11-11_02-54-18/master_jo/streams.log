@@ -1,0 +1,393 @@
+[0.008s] Invoking command in '/home/yu/colcon_ws/build/master_jo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/master_jo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/master_jo
+[0.015s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.084s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.099s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.100s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.103s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.130s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.131s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.189s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.219s] -- Found humanoid_interfaces: 0.0.0 (/home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/cmake)
+[0.233s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.270s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.270s] -- Configured cppcheck include dirs: /home/yu/colcon_ws/src/master_jo/include
+[0.270s] -- Configured cppcheck exclude dirs and/or files: 
+[0.270s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.270s] -- Added test 'lint_cmake' to check CMake code style
+[0.270s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.271s] -- Added test 'uncrustify' to check C / C++ code style
+[0.271s] -- Configured uncrustify additional arguments: 
+[0.271s] -- Added test 'xmllint' to check XML markup files
+[0.271s] -- Configuring done
+[0.287s] -- Generating done
+[0.290s] -- Build files have been written to: /home/yu/colcon_ws/build/master_jo
+[0.297s] Invoked command in '/home/yu/colcon_ws/build/master_jo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/master_jo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/master_jo
+[0.298s] Invoking command in '/home/yu/colcon_ws/build/master_jo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/master_jo -- -j8 -l8
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target master_jo_node[0m
+[0.336s] [ 16%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/forward.cpp.o[0m
+[0.337s] [ 33%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/player.cpp.o[0m
+[0.339s] [ 50%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o[0m
+[1.671s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kvoid master_jo::Player::gameStateControl(bool, int)[m[K’:
+[1.671s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_INITIAL[m[K’ was not declared in this scope
+[1.671s]    28 |     case [01;31m[KSTATE_INITIAL[m[K:
+[1.671s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.672s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_READY[m[K’ was not declared in this scope
+[1.672s]    31 |     case [01;31m[KSTATE_READY[m[K:
+[1.672s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[1.679s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:34:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_SET[m[K’ was not declared in this scope
+[1.679s]    34 |     case [01;31m[KSTATE_SET[m[K:
+[1.679s]       |          [01;31m[K^~~~~~~~~[m[K
+[1.681s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:37:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_PLAYING[m[K’ was not declared in this scope
+[1.681s]    37 |     case [01;31m[KSTATE_PLAYING[m[K:
+[1.681s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.687s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_FINISHED[m[K’ was not declared in this scope
+[1.687s]    40 |     case [01;31m[KSTATE_FINISHED[m[K:
+[1.687s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.687s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kvirtual void master_jo::Player::selectRobotState(bool)[m[K’:
+[1.687s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:48:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KisPenalty[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.687s]    48 | void Player::selectRobotState([01;35m[Kbool isPenalty[m[K) {
+[1.687s]       |                               [01;35m[K~~~~~^~~~~~~~~[m[K
+[1.687s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::walkStart(int, int, int)[m[K’:
+[1.687s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:72:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KikEnd[m[K’
+[1.687s]    72 |   return master->[01;31m[KikEnd[m[K.ikend;
+[1.687s]       |                  [01;31m[K^~~~~[m[K
+[1.687s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::walkStop()[m[K’:
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:81:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KikEnd[m[K’
+[1.689s]    81 |   return master->[01;31m[KikEnd[m[K.ikend;
+[1.689s]       |                  [01;31m[K^~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::walkPublish()[m[K’:
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:86:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFRONT_MAX[m[K’
+[1.689s]    86 |   if (master->ik.x_length > master->[01;31m[KFRONT_MAX[m[K) {
+[1.689s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:87:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFRONT_MAX[m[K’
+[1.689s]    87 |     master->ik.x_length = master->[01;31m[KFRONT_MAX[m[K;
+[1.689s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:89:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KREAR_MAX[m[K’
+[1.689s]    89 |   } else if (master->ik.x_length < master->[01;31m[KREAR_MAX[m[K) {
+[1.689s]       |                                            [01;31m[K^~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:90:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KREAR_MAX[m[K’
+[1.689s]    90 |     master->ik.x_length = master->[01;31m[KREAR_MAX[m[K;
+[1.689s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:94:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KRIGHT_MAX[m[K’
+[1.689s]    94 |   if (master->ik.y_length > master->[01;31m[KRIGHT_MAX[m[K) {
+[1.689s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:95:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KRIGHT_MAX[m[K’
+[1.689s]    95 |     master->ik.y_length = master->[01;31m[KRIGHT_MAX[m[K;
+[1.689s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:97:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KLEFT_MAX[m[K’
+[1.689s]    97 |   } else if (master->ik.y_length < master->[01;31m[KLEFT_MAX[m[K) {
+[1.689s]       |                                            [01;31m[K^~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:98:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KLEFT_MAX[m[K’
+[1.689s]    98 |     master->ik.y_length = master->[01;31m[KLEFT_MAX[m[K;
+[1.689s]       |                                   [01;31m[K^~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:102:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KR_YAW_MAX[m[K’
+[1.689s]   102 |   if (master->ik.yaw > master->[01;31m[KR_YAW_MAX[m[K) {
+[1.689s]       |                                [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:103:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KR_YAW_MAX[m[K’
+[1.689s]   103 |     master->ik.yaw = master->[01;31m[KR_YAW_MAX[m[K;
+[1.689s]       |                              [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:105:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KL_YAW_MAX[m[K’
+[1.689s]   105 |   } else if (master->ik.yaw < master->[01;31m[KL_YAW_MAX[m[K) {
+[1.689s]       |                                       [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:106:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KL_YAW_MAX[m[K’
+[1.689s]   106 |     master->ik.yaw = master->[01;31m[KL_YAW_MAX[m[K;
+[1.689s]       |                              [01;31m[K^~~~~~~~~[m[K
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::visionPublish(int, int, int)[m[K’:
+[1.689s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:114:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+[1.690s]   114 |   master->[01;31m[Kmaster2vision[m[K.scanmode = scan_mode;
+[1.690s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.690s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:115:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+[1.690s]   115 |   master->[01;31m[Kmaster2vision[m[K.tilt = -45;
+[1.690s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.690s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:116:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+[1.690s]   116 |   master->[01;31m[Kmaster2vision[m[K.pan = 0;
+[1.690s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.693s]   113 | bool Player::visionPublish(int scan_mode, [01;35m[Kint pan[m[K, int tilt) {
+[1.693s]       |                                           [01;35m[K~~~~^~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktilt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.693s]   113 | bool Player::visionPublish(int scan_mode, int pan, [01;35m[Kint tilt[m[K) {
+[1.693s]       |                                                    [01;35m[K~~~~^~~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::udpPublish()[m[K’:
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:122:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.693s]   122 |   master->[01;31m[Kmaster2udp[m[K.robotnum = master->gameControlData.robotnum;
+[1.693s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:123:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.693s]   123 |   master->[01;31m[Kmaster2udp[m[K.robotstate = robot_state;
+[1.693s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:124:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.693s]   124 |   master->[01;31m[Kmaster2udp[m[K.robotcoorx = static_cast<int>(master->local.robot_x);
+[1.693s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:124:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.693s]   124 |   master->master2udp.robotcoorx = static_cast<int>(master->[01;31m[Klocal[m[K.robot_x);
+[1.693s]       |                                                            [01;31m[K^~~~~[m[K
+[1.693s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:125:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.693s]   125 |   master->[01;31m[Kmaster2udp[m[K.robotcoory = static_cast<int>(master->local.robot_y);
+[1.693s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:125:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.694s]   125 |   master->master2udp.robotcoory = static_cast<int>(master->[01;31m[Klocal[m[K.robot_y);
+[1.694s]       |                                                            [01;31m[K^~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:126:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   126 |   master->[01;31m[Kmaster2udp[m[K.robotimuyaw = static_cast<int>(master->imu.yaw);
+[1.694s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:126:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kimu[m[K’
+[1.694s]   126 |   master->master2udp.robotimuyaw = static_cast<int>(master->[01;31m[Kimu[m[K.yaw);
+[1.694s]       |                                                             [01;31m[K^~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:127:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   127 |   master->[01;31m[Kmaster2udp[m[K.balldist = 0;
+[1.694s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:128:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   128 |   master->[01;31m[Kmaster2udp[m[K.ballcoorx = static_cast<int>(master->local.ball_x);
+[1.694s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:128:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.694s]   128 |   master->master2udp.ballcoorx = static_cast<int>(master->[01;31m[Klocal[m[K.ball_x);
+[1.694s]       |                                                           [01;31m[K^~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:129:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   129 |   master->[01;31m[Kmaster2udp[m[K.ballcoory = static_cast<int>(master->local.ball_y);
+[1.694s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:129:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.694s]   129 |   master->master2udp.ballcoory = static_cast<int>(master->[01;31m[Klocal[m[K.ball_y);
+[1.694s]       |                                                           [01;31m[K^~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:130:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   130 |   master->[01;31m[Kmaster2udp[m[K.myteam = static_cast<int>(master->gameControlData.myteam);
+[1.694s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:132:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.694s]   132 |   if (static_cast<int>(master->[01;31m[Kvision[m[K.ball_d) == 0) {
+[1.694s]       |                                [01;31m[K^~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:133:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   133 |     master->[01;31m[Kmaster2udp[m[K.ballcoorx = 0;
+[1.694s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:134:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.694s]   134 |     master->[01;31m[Kmaster2udp[m[K.ballcoory = 0;
+[1.694s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::localPublish()[m[K’:
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:142:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2local[m[K’
+[1.694s]   142 |     master->[01;31m[Kmaster2local[m[K.targetx = 0;
+[1.694s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.694s] [01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:143:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2local[m[K’
+[1.694s]   143 |     master->[01;31m[Kmaster2local[m[K.targety = 0;
+[1.694s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.850s] In file included from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[1.850s] [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:99:15:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_PLAYING[m[K’ was not declared in this scope
+[1.850s]    99 |   int state = [01;31m[KSTATE_PLAYING[m[K;
+[1.850s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[1.862s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[1.862s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:63:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kkp[m[K’
+[1.862s]    63 |     master->[01;31m[Kkp[m[K = kp_;
+[1.862s]       |             [01;31m[K^~[m[K
+[1.862s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kkd[m[K’
+[1.862s]    64 |     master->[01;31m[Kkd[m[K = kd_;
+[1.862s]       |             [01;31m[K^~[m[K
+[1.862s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:65:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kki[m[K’; did you mean ‘[01m[Kik[m[K’?
+[1.862s]    65 |     master->[01;31m[Kki[m[K = ki_;
+[1.862s]       |             [01;31m[K^~[m[K
+[1.862s]       |             [32m[Kik[m[K
+[1.862s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:66:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFRONT_MAX[m[K’
+[1.862s]    66 |     master->[01;31m[KFRONT_MAX[m[K = FRONT_MAX_;
+[1.862s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:67:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KX_MIN[m[K’
+[1.863s]    67 |     master->[01;31m[KX_MIN[m[K = X_MIN_;
+[1.863s]       |             [01;31m[K^~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KREAR_MAX[m[K’
+[1.863s]    68 |     master->[01;31m[KREAR_MAX[m[K = REAR_MAX_;
+[1.863s]       |             [01;31m[K^~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:69:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KRIGHT_MAX[m[K’
+[1.863s]    69 |     master->[01;31m[KRIGHT_MAX[m[K = RIGHT_MAX_;
+[1.863s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:70:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KY_MIN[m[K’
+[1.863s]    70 |     master->[01;31m[KY_MIN[m[K = Y_MIN_;
+[1.863s]       |             [01;31m[K^~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KROUND_Y[m[K’
+[1.863s]    71 |     master->[01;31m[KROUND_Y[m[K = ROUND_Y_;
+[1.863s]       |             [01;31m[K^~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:72:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KROUND_YAW_MIN[m[K’
+[1.863s]    72 |     master->[01;31m[KROUND_YAW_MIN[m[K = ROUND_YAW_MIN_;
+[1.863s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:73:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KLEFT_MAX[m[K’
+[1.863s]    73 |     master->[01;31m[KLEFT_MAX[m[K = LEFT_MAX_;
+[1.863s]       |             [01;31m[K^~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KR_YAW_MAX[m[K’
+[1.863s]    74 |     master->[01;31m[KR_YAW_MAX[m[K = R_YAW_MAX_;
+[1.863s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:75:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KL_YAW_MAX[m[K’
+[1.863s]    75 |     master->[01;31m[KL_YAW_MAX[m[K = L_YAW_MAX_;
+[1.863s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:76:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KIn[m[K’
+[1.863s]    76 |     master->[01;31m[KIn[m[K = In_;
+[1.863s]       |             [01;31m[K^~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:77:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KOut[m[K’
+[1.863s]    77 |     master->[01;31m[KOut[m[K = Out_;
+[1.863s]       |             [01;31m[K^~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KBack[m[K’
+[1.863s]    78 |     master->[01;31m[KBack[m[K = Back_;
+[1.863s]       |             [01;31m[K^~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:79:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFront[m[K’
+[1.863s]    79 |     master->[01;31m[KFront[m[K = Front_;
+[1.863s]       |             [01;31m[K^~~~~[m[K
+[1.863s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:16:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.863s]    16 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.863s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.868s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.868s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:93:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.868s]    93 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.868s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.869s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[1.869s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:119:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.869s]   119 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.869s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.869s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[1.869s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:138:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.869s]   138 | MasterJoNode::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.869s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.869s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[1.869s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:146:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.869s]   146 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.869s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.875s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::imuCallback(humanoid_interfaces::msg::ImuMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.876s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:227:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kimu[m[K’
+[1.876s]   227 |   master->[01;31m[Kimu[m[K.pitch = msg->pitch;
+[1.876s]       |           [01;31m[K^~~[m[K
+[1.876s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:228:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kimu[m[K’
+[1.876s]   228 |   master->[01;31m[Kimu[m[K.roll = msg->roll;
+[1.876s]       |           [01;31m[K^~~[m[K
+[1.876s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:229:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kimu[m[K’
+[1.876s]   229 |   master->[01;31m[Kimu[m[K.yaw = msg->yaw;
+[1.876s]       |           [01;31m[K^~~[m[K
+[1.877s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::visionCallback(humanoid_interfaces::msg::Robocupvision25_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.877s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:234:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.877s]   234 |   master->[01;31m[Kvision[m[K.ball_2d_x = msg->ball_2d_x;
+[1.877s]       |           [01;31m[K^~~~~~[m[K
+[1.877s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:235:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.877s]   235 |   master->[01;31m[Kvision[m[K.ball_2d_y = msg->ball_2d_y;
+[1.877s]       |           [01;31m[K^~~~~~[m[K
+[1.877s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:236:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.877s]   236 |   master->[01;31m[Kvision[m[K.ball_cam_x = msg->ball_cam_x;
+[1.877s]       |           [01;31m[K^~~~~~[m[K
+[1.877s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:237:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.877s]   237 |   master->[01;31m[Kvision[m[K.ball_cam_y = msg->ball_cam_y;
+[1.877s]       |           [01;31m[K^~~~~~[m[K
+[1.877s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:238:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.877s]   238 |   master->[01;31m[Kvision[m[K.ball_d = msg->ball_d;
+[1.877s]       |           [01;31m[K^~~~~~[m[K
+[1.878s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:239:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+[1.878s]   239 |   master->[01;31m[Kvision[m[K.ball_speed_level = msg->ball_speed_level;
+[1.878s]       |           [01;31m[K^~~~~~[m[K
+[1.878s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::ikCallback(humanoid_interfaces::msg::IkEndMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.878s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:244:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KikEnd[m[K’
+[1.878s]   244 |   master->[01;31m[KikEnd[m[K.ikend = msg->ikend;
+[1.878s]       |           [01;31m[K^~~~~[m[K
+[1.880s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::localCallback(humanoid_interfaces::msg::Robocuplocalization25_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.880s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:263:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.880s]   263 |   master->[01;31m[Klocal[m[K.robot_x = msg->robot_x;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:264:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   264 |   master->[01;31m[Klocal[m[K.robot_y = msg->robot_y;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:265:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   265 |   master->[01;31m[Klocal[m[K.ball_x = msg->ball_x;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:266:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   266 |   master->[01;31m[Klocal[m[K.ball_y = msg->ball_y;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:267:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   267 |   master->[01;31m[Klocal[m[K.ball_speed_x = msg->ball_speed_x;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:268:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   268 |   master->[01;31m[Klocal[m[K.ball_speed_y = msg->ball_speed_y;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:269:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   269 |   master->[01;31m[Klocal[m[K.obstacle0_x = msg->obstacle0_x;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:270:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   270 |   master->[01;31m[Klocal[m[K.obstacle0_y = msg->obstacle0_y;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:271:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   271 |   master->[01;31m[Klocal[m[K.obstacle1_x = msg->obstacle1_x;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:272:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   272 |   master->[01;31m[Klocal[m[K.obstacle1_y = msg->obstacle1_y;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.881s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:273:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.881s]   273 |   master->[01;31m[Klocal[m[K.obstacle2_x = msg->obstacle2_x;
+[1.881s]       |           [01;31m[K^~~~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:274:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.882s]   274 |   master->[01;31m[Klocal[m[K.obstacle2_y = msg->obstacle2_y;
+[1.882s]       |           [01;31m[K^~~~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:275:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.882s]   275 |   master->[01;31m[Klocal[m[K.obstacle3_x = msg->obstacle3_x;
+[1.882s]       |           [01;31m[K^~~~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:276:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.882s]   276 |   master->[01;31m[Klocal[m[K.obstacle3_y = msg->obstacle3_y;
+[1.882s]       |           [01;31m[K^~~~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:277:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.882s]   277 |   master->[01;31m[Klocal[m[K.obstacle_x = msg->obstacle_x;
+[1.882s]       |           [01;31m[K^~~~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:278:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+[1.882s]   278 |   master->[01;31m[Klocal[m[K.obstacle_y = msg->obstacle_y;
+[1.882s]       |           [01;31m[K^~~~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::udpCallback(humanoid_interfaces::msg::Udp2master_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:284:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.882s]   284 |   master->[01;31m[Kudp[m[K[i].robotnum = msg->robotnum;
+[1.882s]       |           [01;31m[K^~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:285:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.882s]   285 |   master->[01;31m[Kudp[m[K[i].robotcase = msg->robotcase;
+[1.882s]       |           [01;31m[K^~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:286:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.882s]   286 |   master->[01;31m[Kudp[m[K[i].localx = msg->localx;
+[1.882s]       |           [01;31m[K^~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:287:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.882s]   287 |   master->[01;31m[Kudp[m[K[i].localy = msg->localy;
+[1.882s]       |           [01;31m[K^~~[m[K
+[1.882s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:288:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.883s]   288 |   master->[01;31m[Kudp[m[K[i].localyaw = msg->localyaw;
+[1.883s]       |           [01;31m[K^~~[m[K
+[1.883s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:289:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.883s]   289 |   master->[01;31m[Kudp[m[K[i].balldist = msg->balldist;
+[1.883s]       |           [01;31m[K^~~[m[K
+[1.883s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:291:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kudp[m[K’
+[1.883s]   291 |   master->[01;31m[Kudp[m[K[3].balldist = 0;
+[1.883s]       |           [01;31m[K^~~[m[K
+[1.883s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::motionCallback(humanoid_interfaces::msg::MotionOperator_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.883s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:296:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KmotionEnd[m[K’
+[1.883s]   296 |   master->[01;31m[KmotionEnd[m[K.motion_num = msg->motion_num;
+[1.883s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.883s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:297:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KmotionEnd[m[K’
+[1.883s]   297 |   master->[01;31m[KmotionEnd[m[K.motion_end = msg->motion_end;
+[1.883s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.885s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::pidCallback(humanoid_interfaces::msg::Pidtuning_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.885s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:303:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kkp[m[K’
+[1.885s]   303 |   master->[01;31m[Kkp[m[K = msg->kp;
+[1.885s]       |           [01;31m[K^~[m[K
+[1.885s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:304:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kkd[m[K’
+[1.885s]   304 |   master->[01;31m[Kkd[m[K = msg->kd;
+[1.885s]       |           [01;31m[K^~[m[K
+[1.885s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:305:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kki[m[K’; did you mean ‘[01m[Kik[m[K’?
+[1.885s]   305 |   master->[01;31m[Kki[m[K = msg->ki;
+[1.885s]       |           [01;31m[K^~[m[K
+[1.886s]       |           [32m[Kik[m[K
+[1.890s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::robocup_master()[m[K’:
+[1.890s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:338:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+[1.890s]   338 |     vision_pub->publish(master->[01;31m[Kmaster2vision[m[K);
+[1.890s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.891s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:339:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KgameControlReturnData[m[K’; did you mean ‘[01m[KgameControlData[m[K’?
+[1.891s]   339 |     gamecontrol_pub->publish(master->[01;31m[KgameControlReturnData[m[K);
+[1.891s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.891s]       |                                      [32m[KgameControlData[m[K
+[1.891s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:340:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2local[m[K’
+[1.891s]   340 |     local_pub->publish(master->[01;31m[Kmaster2local[m[K);
+[1.891s]       |                                [01;31m[K^~~~~~~~~~~~[m[K
+[1.891s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:341:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+[1.891s]   341 |     udp_pub->publish(master->[01;31m[Kmaster2udp[m[K);
+[1.891s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[1.891s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:343:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmotion[m[K’
+[1.891s]   343 |       motionPub->publish(master->[01;31m[Kmotion[m[K);
+[1.891s]       |                                  [01;31m[K^~~~~~[m[K
+[1.958s] gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:118: CMakeFiles/master_jo_node.dir/src/player.cpp.o] Error 1
+[1.958s] gmake[2]: *** Waiting for unfinished jobs....
+[6.855s] gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:104: CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o] Error 1
+[6.855s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_jo_node.dir/all] Error 2
+[6.855s] gmake: *** [Makefile:146: all] Error 2
+[6.857s] Invoked command in '/home/yu/colcon_ws/build/master_jo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/master_jo -- -j8 -l8

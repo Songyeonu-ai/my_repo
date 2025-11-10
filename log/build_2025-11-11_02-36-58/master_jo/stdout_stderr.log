@@ -1,0 +1,1192 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found humanoid_interfaces: 0.0.0 (/home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/yu/colcon_ws/src/master_jo/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yu/colcon_ws/build/master_jo
+[35m[1mConsolidate compiler generated dependencies of target master_jo_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/player.cpp.o[0m
+In file included from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:40:52:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   40 |   void imuCallback(const humanoid_interfaces::msg::[01;31m[KImuMsg[m[K::SharedPtr msg);
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:40:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   40 | oid imuCallback(const humanoid_interfaces::msg::ImuMsg::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:40:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   40 | oid imuCallback[34m[K([m[Kconst humanoid_interfaces::msg::ImuMsg::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |                [34m[K~[m[K                                                 [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:40:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 |   void imuCallback(const humanoid_interfaces::msg::ImuMsg::[01;31m[KSharedPtr[m[K msg);
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:40:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   40 | oid imuCallback(const humanoid_interfaces::msg::ImuMsg::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:42:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocupvision25[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   42 |       const humanoid_interfaces::msg::[01;31m[KRobocupvision25[m[K::SharedPtr msg);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:42:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   42 |       const humanoid_interfaces::msg::Robocupvision25::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:42:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   42 |       const humanoid_interfaces::msg::Robocupvision25::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |                                                                 [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:41:22:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   41 |   void visionCallback[01;36m[K([m[K
+      |                      [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:42:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   42 |       const humanoid_interfaces::msg::Robocupvision25::[01;31m[KSharedPtr[m[K msg);
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:42:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   42 |       const humanoid_interfaces::msg::Robocupvision25::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:43:51:[m[K [01;31m[Kerror: [m[K‘[01m[KIkEndMsg[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   43 |   void ikCallback(const humanoid_interfaces::msg::[01;31m[KIkEndMsg[m[K::SharedPtr msg);
+      |                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:43:71:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   43 | id ikCallback(const humanoid_interfaces::msg::IkEndMsg::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:43:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   43 | id ikCallback[34m[K([m[Kconst humanoid_interfaces::msg::IkEndMsg::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |              [34m[K~[m[K                                                   [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:43:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   43 |   void ikCallback(const humanoid_interfaces::msg::IkEndMsg::[01;31m[KSharedPtr[m[K msg);
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:43:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   43 | id ikCallback(const humanoid_interfaces::msg::IkEndMsg::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:47:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocuplocalization25[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   47 |       const humanoid_interfaces::msg::[01;31m[KRobocuplocalization25[m[K::SharedPtr msg);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:47:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   47 |  const humanoid_interfaces::msg::Robocuplocalization25::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:47:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   47 |  const humanoid_interfaces::msg::Robocuplocalization25::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |                                                                  [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:46:21:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   46 |   void localCallback[01;36m[K([m[K
+      |                     [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:47:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   47 |      const humanoid_interfaces::msg::Robocuplocalization25::[01;31m[KSharedPtr[m[K msg);
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:47:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   47 |  const humanoid_interfaces::msg::Robocuplocalization25::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:48:52:[m[K [01;31m[Kerror: [m[K‘[01m[KUdp2master[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   48 |   void udpCallback(const humanoid_interfaces::msg::[01;31m[KUdp2master[m[K::SharedPtr msg);
+      |                                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:48:74:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   48 | udpCallback(const humanoid_interfaces::msg::Udp2master::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:48:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   48 | udpCallback[34m[K([m[Kconst humanoid_interfaces::msg::Udp2master::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |            [34m[K~[m[K                                                     [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:48:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   48 | oid udpCallback(const humanoid_interfaces::msg::Udp2master::[01;31m[KSharedPtr[m[K msg);
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:48:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   48 | udpCallback(const humanoid_interfaces::msg::Udp2master::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:50:39:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionOperator[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   50 |       const humanoid_interfaces::msg::[01;31m[KMotionOperator[m[K::SharedPtr msg);
+      |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:50:65:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   50 |       const humanoid_interfaces::msg::MotionOperator::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                 [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:50:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   50 |       const humanoid_interfaces::msg::MotionOperator::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |                                                                [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:49:22:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   49 |   void motionCallback[01;36m[K([m[K
+      |                      [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:50:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |       const humanoid_interfaces::msg::MotionOperator::[01;31m[KSharedPtr[m[K msg);
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:50:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   50 |       const humanoid_interfaces::msg::MotionOperator::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                 [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:51:52:[m[K [01;31m[Kerror: [m[K‘[01m[KPidtuning[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+   51 |   void pidCallback(const humanoid_interfaces::msg::[01;31m[KPidtuning[m[K::SharedPtr msg);
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:51:73:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   51 |  pidCallback(const humanoid_interfaces::msg::Pidtuning::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:51:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   51 |  pidCallback[34m[K([m[Kconst humanoid_interfaces::msg::Pidtuning::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+      |             [34m[K~[m[K                                                    [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                  [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:51:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   51 | void pidCallback(const humanoid_interfaces::msg::Pidtuning::[01;31m[KSharedPtr[m[K msg);
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:51:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   51 |  pidCallback(const humanoid_interfaces::msg::Pidtuning::SharedPtr [01;31m[Kmsg[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:66:[m[K [01;31m[Kerror: [m[K‘[01m[KMaster2vision25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   61 | cpp_lifecycle::LifecyclePublisher<humanoid_interfaces::msg::[01;31m[KMaster2vision25[m[K>::SharedPtr vision_pub;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 | LifecyclePublisher<humanoid_interfaces::msg::Master2vision25[01;31m[K>[m[K::SharedPtr vision_pub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;31m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_pub[m[K’ does not name a type
+   61 | isher<humanoid_interfaces::msg::Master2vision25>::SharedPtr [01;31m[Kvision_pub[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:62:66:[m[K [01;31m[Kerror: [m[K‘[01m[KGamecontrolreturndata[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’; did you mean ‘[01m[KGamecontroldata[m[K’?
+   62 | cpp_lifecycle::LifecyclePublisher<humanoid_interfaces::msg::[01;31m[KGamecontrolreturndata[m[K>::SharedPtr gamecontrol_pub;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[KGamecontroldata[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:62:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 | clePublisher<humanoid_interfaces::msg::Gamecontrolreturndata[01;31m[K>[m[K::SharedPtr gamecontrol_pub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:62:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   62 | Publisher<humanoid_interfaces::msg::Gamecontrolreturndata>::[01;31m[KSharedPtr[m[K gamecontrol_pub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:62:90:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:62:100:[m[K [01;31m[Kerror: [m[K‘[01m[Kgamecontrol_pub[m[K’ does not name a type
+   62 | humanoid_interfaces::msg::Gamecontrolreturndata>::SharedPtr [01;31m[Kgamecontrol_pub[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:63:66:[m[K [01;31m[Kerror: [m[K‘[01m[KMaster2localization25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   63 | cpp_lifecycle::LifecyclePublisher<humanoid_interfaces::msg::[01;31m[KMaster2localization25[m[K>::SharedPtr local_pub;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:63:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 | clePublisher<humanoid_interfaces::msg::Master2localization25[01;31m[K>[m[K::SharedPtr local_pub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:63:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   63 | Publisher<humanoid_interfaces::msg::Master2localization25>::[01;31m[KSharedPtr[m[K local_pub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:63:90:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:63:100:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pub[m[K’ does not name a type
+   63 | <humanoid_interfaces::msg::Master2localization25>::SharedPtr [01;31m[Klocal_pub[m[K;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:64:66:[m[K [01;31m[Kerror: [m[K‘[01m[KMaster2udp[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   64 | cpp_lifecycle::LifecyclePublisher<humanoid_interfaces::msg::[01;31m[KMaster2udp[m[K>::SharedPtr udp_pub;
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:64:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 | cle::LifecyclePublisher<humanoid_interfaces::msg::Master2udp[01;31m[K>[m[K::SharedPtr udp_pub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:64:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 | ::LifecyclePublisher<humanoid_interfaces::msg::Master2udp>::[01;31m[KSharedPtr[m[K udp_pub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:64:79:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:64:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_pub[m[K’ does not name a type
+   64 | yclePublisher<humanoid_interfaces::msg::Master2udp>::SharedPtr [01;31m[Kudp_pub[m[K;
+      |                                                                [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:65:66:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionOperator[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   65 | cpp_lifecycle::LifecyclePublisher<humanoid_interfaces::msg::[01;31m[KMotionOperator[m[K>::SharedPtr motionPub;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:65:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   65 | :LifecyclePublisher<humanoid_interfaces::msg::MotionOperator[01;31m[K>[m[K::SharedPtr motionPub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:65:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   65 | fecyclePublisher<humanoid_interfaces::msg::MotionOperator>::[01;31m[KSharedPtr[m[K motionPub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:65:83:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:65:93:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionPub[m[K’ does not name a type
+   65 | blisher<humanoid_interfaces::msg::MotionOperator>::SharedPtr [01;31m[KmotionPub[m[K;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:50:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   67 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KImuMsg[m[K>::SharedPtr imu_sub;
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |   rclcpp::Subscription<humanoid_interfaces::msg::ImuMsg[01;31m[K>[m[K::SharedPtr imu_sub;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   rclcpp::Subscription<humanoid_interfaces::msg::ImuMsg>::[01;31m[KSharedPtr[m[K imu_sub;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:59:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:67:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_sub[m[K’ does not name a type
+   67 | cpp::Subscription<humanoid_interfaces::msg::ImuMsg>::SharedPtr [01;31m[Kimu_sub[m[K;
+      |                                                                [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:50:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocupvision25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   68 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KRobocupvision25[m[K>::SharedPtr vision_sub;
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 | lcpp::Subscription<humanoid_interfaces::msg::Robocupvision25[01;31m[K>[m[K::SharedPtr vision_sub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 | p::Subscription<humanoid_interfaces::msg::Robocupvision25>::[01;31m[KSharedPtr[m[K vision_sub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:68:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:68:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_sub[m[K’ does not name a type
+   68 | ption<humanoid_interfaces::msg::Robocupvision25>::SharedPtr [01;31m[Kvision_sub[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:50:[m[K [01;31m[Kerror: [m[K‘[01m[KIkEndMsg[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   69 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KIkEndMsg[m[K>::SharedPtr ik_sub;
+      |                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |   rclcpp::Subscription<humanoid_interfaces::msg::IkEndMsg[01;31m[K>[m[K::SharedPtr ik_sub;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   69 |   rclcpp::Subscription<humanoid_interfaces::msg::IkEndMsg>::[01;31m[KSharedPtr[m[K ik_sub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:61:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:69:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kik_sub[m[K’ does not name a type
+   69 | pp::Subscription<humanoid_interfaces::msg::IkEndMsg>::SharedPtr [01;31m[Kik_sub[m[K;
+      |                                                                 [01;31m[K^~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kvoid master_jo::Player::gameStateControl(bool, int)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_INITIAL[m[K’ was not declared in this scope
+   28 |     case [01;31m[KSTATE_INITIAL[m[K:
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_READY[m[K’ was not declared in this scope
+   31 |     case [01;31m[KSTATE_READY[m[K:
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:34:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_SET[m[K’ was not declared in this scope
+   34 |     case [01;31m[KSTATE_SET[m[K:
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:37:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_PLAYING[m[K’ was not declared in this scope
+   37 |     case [01;31m[KSTATE_PLAYING[m[K:
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:50:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocuplocalization25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   71 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KRobocuplocalization25[m[K>::SharedPtr local_sub;
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 | Subscription<humanoid_interfaces::msg::Robocuplocalization25[01;31m[K>[m[K::SharedPtr local_sub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   71 | scription<humanoid_interfaces::msg::Robocuplocalization25>::[01;31m[KSharedPtr[m[K local_sub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:74:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_FINISHED[m[K’ was not declared in this scope
+   40 |     case [01;31m[KSTATE_FINISHED[m[K:
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:71:84:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_sub[m[K’ does not name a type
+   71 | <humanoid_interfaces::msg::Robocuplocalization25>::SharedPtr [01;31m[Klocal_sub[m[K;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kvirtual void master_jo::Player::selectRobotState(bool)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:48:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KisPenalty[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 | void Player::selectRobotState([01;35m[Kbool isPenalty[m[K) {
+      |                               [01;35m[K~~~~~^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::walkStart(int, int, int)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:72:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KikEnd[m[K’
+   72 |   return master->[01;31m[KikEnd[m[K.ikend;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::walkStop()[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:81:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KikEnd[m[K’
+   81 |   return master->[01;31m[KikEnd[m[K.ikend;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:50:[m[K [01;31m[Kerror: [m[K‘[01m[KUdp2master[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   72 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KUdp2master[m[K>::SharedPtr udp_sub;
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::walkPublish()[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:86:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFRONT_MAX[m[K’
+   86 |   if (master->ik.x_length > master->[01;31m[KFRONT_MAX[m[K) {
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:87:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFRONT_MAX[m[K’
+   87 |     master->ik.x_length = master->[01;31m[KFRONT_MAX[m[K;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   72 |   rclcpp::Subscription<humanoid_interfaces::msg::Udp2master[01;31m[K>[m[K::SharedPtr udp_sub;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   72 | rclcpp::Subscription<humanoid_interfaces::msg::Udp2master>::[01;31m[KSharedPtr[m[K udp_sub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:63:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:72:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_sub[m[K’ does not name a type
+   72 | :Subscription<humanoid_interfaces::msg::Udp2master>::SharedPtr [01;31m[Kudp_sub[m[K;
+      |                                                                [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:89:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KREAR_MAX[m[K’
+   89 |   } else if (master->ik.x_length < master->[01;31m[KREAR_MAX[m[K) {
+      |                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:90:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KREAR_MAX[m[K’
+   90 |     master->ik.x_length = master->[01;31m[KREAR_MAX[m[K;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:94:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KRIGHT_MAX[m[K’
+   94 |   if (master->ik.y_length > master->[01;31m[KRIGHT_MAX[m[K) {
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:95:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KRIGHT_MAX[m[K’
+   95 |     master->ik.y_length = master->[01;31m[KRIGHT_MAX[m[K;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:97:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KLEFT_MAX[m[K’
+   97 |   } else if (master->ik.y_length < master->[01;31m[KLEFT_MAX[m[K) {
+      |                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:98:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KLEFT_MAX[m[K’
+   98 |     master->ik.y_length = master->[01;31m[KLEFT_MAX[m[K;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:102:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KR_YAW_MAX[m[K’
+  102 |   if (master->ik.yaw > master->[01;31m[KR_YAW_MAX[m[K) {
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:103:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KR_YAW_MAX[m[K’
+  103 |     master->ik.yaw = master->[01;31m[KR_YAW_MAX[m[K;
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:105:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KL_YAW_MAX[m[K’
+  105 |   } else if (master->ik.yaw < master->[01;31m[KL_YAW_MAX[m[K) {
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:106:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KL_YAW_MAX[m[K’
+  106 |     master->ik.yaw = master->[01;31m[KL_YAW_MAX[m[K;
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::visionPublish(int, int, int)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:114:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+  114 |   master->[01;31m[Kmaster2vision[m[K.scanmode = scan_mode;
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:115:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+  115 |   master->[01;31m[Kmaster2vision[m[K.tilt = -45;
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:116:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+  116 |   master->[01;31m[Kmaster2vision[m[K.pan = 0;
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  113 | bool Player::visionPublish(int scan_mode, [01;35m[Kint pan[m[K, int tilt) {
+      |                                           [01;35m[K~~~~^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktilt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  113 | bool Player::visionPublish(int scan_mode, int pan, [01;35m[Kint tilt[m[K) {
+      |                                                    [01;35m[K~~~~^~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::udpPublish()[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:122:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  122 |   master->[01;31m[Kmaster2udp[m[K.robotnum = master->gameControlData.robotnum;
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:123:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  123 |   master->[01;31m[Kmaster2udp[m[K.robotstate = robot_state;
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:124:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  124 |   master->[01;31m[Kmaster2udp[m[K.robotcoorx = static_cast<int>(master->local.robot_x);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:124:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+  124 |   master->master2udp.robotcoorx = static_cast<int>(master->[01;31m[Klocal[m[K.robot_x);
+      |                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:125:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  125 |   master->[01;31m[Kmaster2udp[m[K.robotcoory = static_cast<int>(master->local.robot_y);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:125:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+  125 |   master->master2udp.robotcoory = static_cast<int>(master->[01;31m[Klocal[m[K.robot_y);
+      |                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:126:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  126 |   master->[01;31m[Kmaster2udp[m[K.robotimuyaw = static_cast<int>(master->imu.yaw);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:126:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kimu[m[K’
+  126 |   master->master2udp.robotimuyaw = static_cast<int>(master->[01;31m[Kimu[m[K.yaw);
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:127:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  127 |   master->[01;31m[Kmaster2udp[m[K.balldist = 0;
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:128:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  128 |   master->[01;31m[Kmaster2udp[m[K.ballcoorx = static_cast<int>(master->local.ball_x);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:128:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+  128 |   master->master2udp.ballcoorx = static_cast<int>(master->[01;31m[Klocal[m[K.ball_x);
+      |                                                           [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:129:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  129 |   master->[01;31m[Kmaster2udp[m[K.ballcoory = static_cast<int>(master->local.ball_y);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:129:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Klocal[m[K’
+  129 |   master->master2udp.ballcoory = static_cast<int>(master->[01;31m[Klocal[m[K.ball_y);
+      |                                                           [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:130:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  130 |   master->[01;31m[Kmaster2udp[m[K.myteam = static_cast<int>(master->gameControlData.myteam);
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:132:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kvision[m[K’
+  132 |   if (static_cast<int>(master->[01;31m[Kvision[m[K.ball_d) == 0) {
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:133:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  133 |     master->[01;31m[Kmaster2udp[m[K.ballcoorx = 0;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:134:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  134 |     master->[01;31m[Kmaster2udp[m[K.ballcoory = 0;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:[m[K In member function ‘[01m[Kbool master_jo::Player::localPublish()[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:142:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2local[m[K’
+  142 |     master->[01;31m[Kmaster2local[m[K.targetx = 0;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:143:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2local[m[K’
+  143 |     master->[01;31m[Kmaster2local[m[K.targety = 0;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:50:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionOperator[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   73 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KMotionOperator[m[K>::SharedPtr motionSub;
+      |                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   73 | clcpp::Subscription<humanoid_interfaces::msg::MotionOperator[01;31m[K>[m[K::SharedPtr motionSub;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   73 | pp::Subscription<humanoid_interfaces::msg::MotionOperator>::[01;31m[KSharedPtr[m[K motionSub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:67:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:73:77:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionSub[m[K’ does not name a type
+   73 | ription<humanoid_interfaces::msg::MotionOperator>::SharedPtr [01;31m[KmotionSub[m[K;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:50:[m[K [01;31m[Kerror: [m[K‘[01m[KPidtuning[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   74 |   rclcpp::Subscription<humanoid_interfaces::msg::[01;31m[KPidtuning[m[K>::SharedPtr pid_sub;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |   rclcpp::Subscription<humanoid_interfaces::msg::Pidtuning[01;31m[K>[m[K::SharedPtr pid_sub;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |  rclcpp::Subscription<humanoid_interfaces::msg::Pidtuning>::[01;31m[KSharedPtr[m[K pid_sub;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:62:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:61:84:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint master_jo::MasterJoNode::SharedPtr[m[K’
+   61 | ecyclePublisher<humanoid_interfaces::msg::Master2vision25>::[01;36m[KSharedPtr[m[K vision_pub;
+      |                                                             [01;36m[K^~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:74:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid_sub[m[K’ does not name a type; did you mean ‘[01m[Kpid_t[m[K’?
+   74 | ::Subscription<humanoid_interfaces::msg::Pidtuning>::SharedPtr [01;31m[Kpid_sub[m[K;
+      |                                                                [01;31m[K^~~~~~~[m[K
+      |                                                                [32m[Kpid_t[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:100:15:[m[K [01;31m[Kerror: [m[K‘[01m[KSTATE_PLAYING[m[K’ was not declared in this scope
+  100 |   int state = [01;31m[KSTATE_PLAYING[m[K;
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_pub[m[K’ was not declared in this scope
+   21 |   [01;31m[Kvision_pub[m[K = create_publisher<humanoid_interfaces::msg::Master2vision25>(
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:21:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMaster2vision25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   21 |   vision_pub = create_publisher<humanoid_interfaces::msg::[01;31m[KMaster2vision25[m[K>(
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:21:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_publisher<<expression error> >(const char [14], int)[m[K’
+   21 | sion_pub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Master2vision25>([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   22 | [01;31m[K  "master2vision", 10)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                                 
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc> > rclcpp_lifecycle::LifecycleNode::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   46 | [01;36m[KLifecycleNode[m[K::create_publisher(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:21:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 | sion_pub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Master2vision25>([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   22 | [01;31m[K  "master2vision", 10)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                                 
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgamecontrol_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kgamecontrol_sub[m[K’?
+   23 |   [01;31m[Kgamecontrol_pub[m[K = create_publisher<humanoid_interfaces::msg::Gamecontrolreturndata>(
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[Kgamecontrol_sub[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:23:64:[m[K [01;31m[Kerror: [m[K‘[01m[KGamecontrolreturndata[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’; did you mean ‘[01m[KGamecontroldata[m[K’?
+   23 | amecontrol_pub = create_publisher<humanoid_interfaces::msg::[01;31m[KGamecontrolreturndata[m[K>(
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[KGamecontroldata[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:23:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_publisher<<expression error> >(const char [22], int)[m[K’
+   23 | ub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Gamecontrolreturndata>([m[K
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   24 | [01;31m[Kcontrolreturndata", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc> > rclcpp_lifecycle::LifecycleNode::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   46 | [01;36m[KLifecycleNode[m[K::create_publisher(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:23:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 | ub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Gamecontrolreturndata>([m[K
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   24 | [01;31m[Kcontrolreturndata", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pub[m[K’ was not declared in this scope
+   25 |   [01;31m[Klocal_pub[m[K = create_publisher<humanoid_interfaces::msg::Master2localization25>(
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:25:58:[m[K [01;31m[Kerror: [m[K‘[01m[KMaster2localization25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   25 |   local_pub = create_publisher<humanoid_interfaces::msg::[01;31m[KMaster2localization25[m[K>(
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:25:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_publisher<<expression error> >(const char [13], int)[m[K’
+   25 | ub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Master2localization25>([m[K
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   26 | [01;31m[Kster2local", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                       
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc> > rclcpp_lifecycle::LifecycleNode::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   46 | [01;36m[KLifecycleNode[m[K::create_publisher(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:25:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 | ub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Master2localization25>([m[K
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   26 | [01;31m[Kster2local", 10)[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~[m[K                                                       
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_pub[m[K’ was not declared in this scope
+   27 |   [01;31m[Kudp_pub[m[K = create_publisher<humanoid_interfaces::msg::Master2udp>("master2udp", 10);
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:27:56:[m[K [01;31m[Kerror: [m[K‘[01m[KMaster2udp[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   27 |   udp_pub = create_publisher<humanoid_interfaces::msg::[01;31m[KMaster2udp[m[K>("master2udp", 10);
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:27:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_publisher<<expression error> >(const char [11], int)[m[K’
+   27 | pub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Master2udp>("master2udp", 10)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc> > rclcpp_lifecycle::LifecycleNode::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   46 | [01;36m[KLifecycleNode[m[K::create_publisher(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:27:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 | pub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::Master2udp>("master2udp", 10)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionPub[m[K’ was not declared in this scope
+   28 |   [01;31m[KmotionPub[m[K = create_publisher<humanoid_interfaces::msg::MotionOperator>(
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:28:58:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionOperator[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   28 |   motionPub = create_publisher<humanoid_interfaces::msg::[01;31m[KMotionOperator[m[K>(
+      |                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:28:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_publisher<<expression error> >(const char [16], int)[m[K’
+   28 | motionPub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::MotionOperator>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   29 | [01;31m[K    "motion_operator", 10)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                             
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT> std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc> > rclcpp_lifecycle::LifecycleNode::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   46 | [01;36m[KLifecycleNode[m[K::create_publisher(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:46:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:28:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 | motionPub = [01;31m[Kcreate_publisher<humanoid_interfaces::msg::MotionOperator>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   29 | [01;31m[K    "motion_operator", 10)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                             
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_sub[m[K’ was not declared in this scope
+   31 |   [01;31m[Kimu_sub[m[K = create_subscription<humanoid_interfaces::msg::ImuMsg>(
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:31:59:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   31 |   imu_sub = create_subscription<humanoid_interfaces::msg::[01;31m[KImuMsg[m[K>(
+      |                                                           [01;31m[K^~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:31:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [4], rclcpp::QoS&, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   31 |   imu_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::ImuMsg>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   32 | [01;31m[K      "Imu", rclcpp::QoS(rclcpp::KeepLast(10)).reliable().best_effort(),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   33 | [01;31m[K      std::bind(&MasterJoNode::imuCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+   34 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+In file included from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  234 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:31:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   imu_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::ImuMsg>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   32 | [01;31m[K      "Imu", rclcpp::QoS(rclcpp::KeepLast(10)).reliable().best_effort(),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   33 | [01;31m[K      std::bind(&MasterJoNode::imuCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+   34 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_sub[m[K’ was not declared in this scope
+   35 |   [01;31m[Kvision_sub[m[K = create_subscription<humanoid_interfaces::msg::Robocupvision25>(
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:35:62:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocupvision25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   35 |  vision_sub = create_subscription<humanoid_interfaces::msg::[01;31m[KRobocupvision25[m[K>(
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:35:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   35 | n_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Robocupvision25>([m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   36 | [01;31m[Kvision", 10,[m[K
+      | [01;31m[K~~~~~~~~~~~~[m[K                                                           
+
+   37 | [01;31m[Ktd::bind(&MasterJoNode::visionCallback, this,[m[K
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+
+   38 | [01;31m[K         std::placeholders::_1))[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                       
+
+In file included from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  234 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 | n_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Robocupvision25>([m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   36 | [01;31m[Kvision", 10,[m[K
+      | [01;31m[K~~~~~~~~~~~~[m[K                                                           
+
+   37 | [01;31m[Ktd::bind(&MasterJoNode::visionCallback, this,[m[K
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+
+   38 | [01;31m[K         std::placeholders::_1))[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                       
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kik_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kik_pub[m[K’?
+   39 |   [01;31m[Kik_sub[m[K = create_subscription<humanoid_interfaces::msg::IkEndMsg>(
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kik_pub[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:39:58:[m[K [01;31m[Kerror: [m[K‘[01m[KIkEndMsg[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   39 |   ik_sub = create_subscription<humanoid_interfaces::msg::[01;31m[KIkEndMsg[m[K>(
+      |                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:39:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [3], int, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   39 |   ik_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::IkEndMsg>([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   40 | [01;31m[K      "ik", 10,[m[K
+      |       [01;31m[K~~~~~~~~~[m[K                                                    
+   41 | [01;31m[K      std::bind(&MasterJoNode::ikCallback, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  234 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:234:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:39:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |   ik_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::IkEndMsg>([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   40 | [01;31m[K      "ik", 10,[m[K
+      |       [01;31m[K~~~~~~~~~[m[K                                                    
+   41 | [01;31m[K      std::bind(&MasterJoNode::ikCallback, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_sub[m[K’ was not declared in this scope
+   47 |   [01;31m[Klocal_sub[m[K =
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:48:53:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocuplocalization25[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   48 |       create_subscription<humanoid_interfaces::msg::[01;31m[KRobocuplocalization25[m[K>(
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:48:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   48 |   [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Robocuplocalization25>([m[K
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   49 | [01;31m[K      "localization", 10,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                              
+
+   50 | [01;31m[K      std::bind(&MasterJoNode::localCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+
+   51 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   69 | [01;36m[KLifecycleNode[m[K::create_subscription(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:48:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |   [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Robocuplocalization25>([m[K
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   49 | [01;31m[K      "localization", 10,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                              
+
+   50 | [01;31m[K      std::bind(&MasterJoNode::localCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+
+   51 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_sub[m[K’ was not declared in this scope
+   52 |   [01;31m[Kudp_sub[m[K = create_subscription<humanoid_interfaces::msg::Udp2master>(
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:52:59:[m[K [01;31m[Kerror: [m[K‘[01m[KUdp2master[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   52 |   udp_sub = create_subscription<humanoid_interfaces::msg::[01;31m[KUdp2master[m[K>(
+      |                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:52:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [4], int, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   52 |   udp_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Udp2master>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   53 | [01;31m[K      "udp", 10,[m[K
+      |       [01;31m[K~~~~~~~~~~[m[K                                                      
+   54 | [01;31m[K      std::bind(&MasterJoNode::udpCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   55 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                               
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   69 | [01;36m[KLifecycleNode[m[K::create_subscription(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:52:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |   udp_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Udp2master>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   53 | [01;31m[K      "udp", 10,[m[K
+      |       [01;31m[K~~~~~~~~~~[m[K                                                      
+   54 | [01;31m[K      std::bind(&MasterJoNode::udpCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   55 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                               
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionSub[m[K’ was not declared in this scope
+   56 |   [01;31m[KmotionSub[m[K = create_subscription<humanoid_interfaces::msg::MotionOperator>(
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:56:61:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionOperator[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   56 |   motionSub = create_subscription<humanoid_interfaces::msg::[01;31m[KMotionOperator[m[K>(
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:56:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   56 | ionSub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::MotionOperator>([m[K
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   57 | [01;31m[K "motion_end", 10,[m[K
+      |  [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                                     
+
+   58 | [01;31m[K std::bind(&MasterJoNode::motionCallback, this,[m[K
+      |  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+
+   59 | [01;31m[K           std::placeholders::_1))[m[K;
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                     
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   69 | [01;36m[KLifecycleNode[m[K::create_subscription(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:56:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 | ionSub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::MotionOperator>([m[K
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   57 | [01;31m[K "motion_end", 10,[m[K
+      |  [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                                     
+
+   58 | [01;31m[K std::bind(&MasterJoNode::motionCallback, this,[m[K
+      |  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+
+   59 | [01;31m[K           std::placeholders::_1))[m[K;
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                                     
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kpid_t[m[K’?
+   60 |   [01;31m[Kpid_sub[m[K = create_subscription<humanoid_interfaces::msg::Pidtuning>(
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kpid_t[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:60:59:[m[K [01;31m[Kerror: [m[K‘[01m[KPidtuning[m[K’ is not a member of ‘[01m[Khumanoid_interfaces::msg[m[K’
+   60 |   pid_sub = create_subscription<humanoid_interfaces::msg::[01;31m[KPidtuning[m[K>(
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:60:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmaster_jo::MasterJoNode::create_subscription<<expression error> >(const char [4], int, std::_Bind_helper<false, void (master_jo::MasterJoNode::*)(...), master_jo::MasterJoNode*, const std::_Placeholder<1>&>::type)[m[K’
+   60 |   pid_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Pidtuning>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   61 | [01;31m[K      "pid", 10,[m[K
+      |       [01;31m[K~~~~~~~~~~[m[K                                                     
+   62 | [01;31m[K      std::bind(&MasterJoNode::pidCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+   63 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                              
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/../include/master_jo/master_jo_node.hpp:6[m[K,
+                 from [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp_lifecycle::LifecycleNode::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   69 | [01;36m[KLifecycleNode[m[K::create_subscription(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:60:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   60 |   pid_sub = [01;31m[Kcreate_subscription<humanoid_interfaces::msg::Pidtuning>([m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   61 | [01;31m[K      "pid", 10,[m[K
+      |       [01;31m[K~~~~~~~~~~[m[K                                                     
+   62 | [01;31m[K      std::bind(&MasterJoNode::pidCallback, this,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+   63 | [01;31m[K                std::placeholders::_1))[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                              
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:67:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kkp[m[K’
+   67 |     master->[01;31m[Kkp[m[K = kp_;
+      |             [01;31m[K^~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:68:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kkd[m[K’
+   68 |     master->[01;31m[Kkd[m[K = kd_;
+      |             [01;31m[K^~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:69:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kki[m[K’; did you mean ‘[01m[Kik[m[K’?
+   69 |     master->[01;31m[Kki[m[K = ki_;
+      |             [01;31m[K^~[m[K
+      |             [32m[Kik[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:70:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFRONT_MAX[m[K’
+   70 |     master->[01;31m[KFRONT_MAX[m[K = FRONT_MAX_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KX_MIN[m[K’
+   71 |     master->[01;31m[KX_MIN[m[K = X_MIN_;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:72:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KREAR_MAX[m[K’
+   72 |     master->[01;31m[KREAR_MAX[m[K = REAR_MAX_;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:73:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KRIGHT_MAX[m[K’
+   73 |     master->[01;31m[KRIGHT_MAX[m[K = RIGHT_MAX_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:74:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KY_MIN[m[K’
+   74 |     master->[01;31m[KY_MIN[m[K = Y_MIN_;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:75:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KROUND_Y[m[K’
+   75 |     master->[01;31m[KROUND_Y[m[K = ROUND_Y_;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:76:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KROUND_YAW_MIN[m[K’
+   76 |     master->[01;31m[KROUND_YAW_MIN[m[K = ROUND_YAW_MIN_;
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:77:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KLEFT_MAX[m[K’
+   77 |     master->[01;31m[KLEFT_MAX[m[K = LEFT_MAX_;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KR_YAW_MAX[m[K’
+   78 |     master->[01;31m[KR_YAW_MAX[m[K = R_YAW_MAX_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:79:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KL_YAW_MAX[m[K’
+   79 |     master->[01;31m[KL_YAW_MAX[m[K = L_YAW_MAX_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:80:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KIn[m[K’
+   80 |     master->[01;31m[KIn[m[K = In_;
+      |             [01;31m[K^~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:81:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KOut[m[K’
+   81 |     master->[01;31m[KOut[m[K = Out_;
+      |             [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:82:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KBack[m[K’
+   82 |     master->[01;31m[KBack[m[K = Back_;
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:83:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KFront[m[K’
+   83 |     master->[01;31m[KFront[m[K = Front_;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:16:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:100:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_pub[m[K’ was not declared in this scope
+  100 |   [01;31m[Kvision_pub[m[K->on_activate();
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:101:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgamecontrol_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kgamecontrol_sub[m[K’?
+  101 |   [01;31m[Kgamecontrol_pub[m[K->on_activate();
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[Kgamecontrol_sub[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:102:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pub[m[K’ was not declared in this scope
+  102 |   [01;31m[Klocal_pub[m[K->on_activate();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:103:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_pub[m[K’ was not declared in this scope
+  103 |   [01;31m[Kudp_pub[m[K->on_activate();
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:104:3:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionPub[m[K’ was not declared in this scope
+  104 |   [01;31m[KmotionPub[m[K->on_activate();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:97:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:126:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_pub[m[K’ was not declared in this scope
+  126 |   [01;31m[Kvision_pub[m[K->on_deactivate();
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:127:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgamecontrol_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kgamecontrol_sub[m[K’?
+  127 |   [01;31m[Kgamecontrol_pub[m[K->on_deactivate();
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |   [32m[Kgamecontrol_sub[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:128:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pub[m[K’ was not declared in this scope
+  128 |   [01;31m[Klocal_pub[m[K->on_deactivate();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:129:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_pub[m[K’ was not declared in this scope
+  129 |   [01;31m[Kudp_pub[m[K->on_deactivate();
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:130:3:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionPub[m[K’ was not declared in this scope
+  130 |   [01;31m[KmotionPub[m[K->on_deactivate();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:123:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:142:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  142 | MasterJoNode::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:150:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K At global scope:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:230:37:[m[K [01;31m[Kerror: [m[K‘[01m[KImuMsg[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  230 |     const humanoid_interfaces::msg::[01;31m[KImuMsg[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:230:55:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  230 |     const humanoid_interfaces::msg::ImuMsg::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:230:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  230 |     const humanoid_interfaces::msg::ImuMsg::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                      [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:229:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  229 | void MasterJoNode::imuCallback[01;36m[K([m[K
+      |                               [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:230:55:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  230 |     const humanoid_interfaces::msg::ImuMsg::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:237:37:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocupvision25[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  237 |     const humanoid_interfaces::msg::[01;31m[KRobocupvision25[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:237:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  237 |     const humanoid_interfaces::msg::Robocupvision25::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:237:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  237 |     const humanoid_interfaces::msg::Robocupvision25::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                               [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                               [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:236:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  236 | void MasterJoNode::visionCallback[01;36m[K([m[K
+      |                                  [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:237:64:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  237 |     const humanoid_interfaces::msg::Robocupvision25::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:247:37:[m[K [01;31m[Kerror: [m[K‘[01m[KIkEndMsg[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  247 |     const humanoid_interfaces::msg::[01;31m[KIkEndMsg[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:247:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  247 |     const humanoid_interfaces::msg::IkEndMsg::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                         [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:247:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  247 |     const humanoid_interfaces::msg::IkEndMsg::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                        [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                        [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:246:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  246 | void MasterJoNode::ikCallback[01;36m[K([m[K
+      |                              [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:247:57:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  247 |     const humanoid_interfaces::msg::IkEndMsg::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                         [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:266:37:[m[K [01;31m[Kerror: [m[K‘[01m[KRobocuplocalization25[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  266 |     const humanoid_interfaces::msg::[01;31m[KRobocuplocalization25[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:266:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  266 | const humanoid_interfaces::msg::Robocuplocalization25::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                  [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:266:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  266 | const humanoid_interfaces::msg::Robocuplocalization25::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                                 [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:265:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  265 | void MasterJoNode::localCallback[01;36m[K([m[K
+      |                                 [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:266:70:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  266 | const humanoid_interfaces::msg::Robocuplocalization25::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                  [01;31m[K^~~[m[K
+
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:286:37:[m[K [01;31m[Kerror: [m[K‘[01m[KUdp2master[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  286 |     const humanoid_interfaces::msg::[01;31m[KUdp2master[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:286:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  286 |     const humanoid_interfaces::msg::Udp2master::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:286:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  286 |     const humanoid_interfaces::msg::Udp2master::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                          [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                          [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:285:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  285 | void MasterJoNode::udpCallback[01;36m[K([m[K
+      |                               [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:286:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  286 |     const humanoid_interfaces::msg::Udp2master::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:299:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMotionOperator[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  299 |     const humanoid_interfaces::msg::[01;31m[KMotionOperator[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:299:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  299 |     const humanoid_interfaces::msg::MotionOperator::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:299:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  299 |     const humanoid_interfaces::msg::MotionOperator::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                              [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                              [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:298:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  298 | void MasterJoNode::motionCallback[01;36m[K([m[K
+      |                                  [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:299:63:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  299 |     const humanoid_interfaces::msg::MotionOperator::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                               [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:306:37:[m[K [01;31m[Kerror: [m[K‘[01m[KPidtuning[m[K’ in namespace ‘[01m[Khumanoid_interfaces::msg[m[K’ does not name a type
+  306 |     const humanoid_interfaces::msg::[01;31m[KPidtuning[m[K::SharedPtr msg) {
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:306:58:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  306 |     const humanoid_interfaces::msg::Pidtuning::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:306:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  306 |     const humanoid_interfaces::msg::Pidtuning::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                                                         [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                         [32m[K)[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:305:31:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  305 | void MasterJoNode::pidCallback[01;36m[K([m[K
+      |                               [01;36m[K^[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:306:58:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  306 |     const humanoid_interfaces::msg::Pidtuning::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvoid master_jo::MasterJoNode::robocup_master()[m[K’:
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:342:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvision_pub[m[K’ was not declared in this scope
+  342 |     [01;31m[Kvision_pub[m[K->publish(master->master2vision);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:342:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2vision[m[K’
+  342 |     vision_pub->publish(master->[01;31m[Kmaster2vision[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:343:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgamecontrol_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kgamecontrol_sub[m[K’?
+  343 |     [01;31m[Kgamecontrol_pub[m[K->publish(master->gameControlReturnData);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |     [32m[Kgamecontrol_sub[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:343:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[KgameControlReturnData[m[K’; did you mean ‘[01m[KgameControlData[m[K’?
+  343 |     gamecontrol_pub->publish(master->[01;31m[KgameControlReturnData[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[KgameControlData[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:344:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klocal_pub[m[K’ was not declared in this scope
+  344 |     [01;31m[Klocal_pub[m[K->publish(master->master2local);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:344:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2local[m[K’
+  344 |     local_pub->publish(master->[01;31m[Kmaster2local[m[K);
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:345:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kudp_pub[m[K’ was not declared in this scope
+  345 |     [01;31m[Kudp_pub[m[K->publish(master->master2udp);
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:345:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmaster2udp[m[K’
+  345 |     udp_pub->publish(master->[01;31m[Kmaster2udp[m[K);
+      |                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:347:7:[m[K [01;31m[Kerror: [m[K‘[01m[KmotionPub[m[K’ was not declared in this scope
+  347 |       [01;31m[KmotionPub[m[K->publish(master->motion);
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:347:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class master_jo::MasterRcko[m[K’ {aka ‘[01m[Kclass master_jo::MasterRcko[m[K’} has no member named ‘[01m[Kmotion[m[K’
+  347 |       motionPub->publish(master->[01;31m[Kmotion[m[K);
+      |                                  [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:118: CMakeFiles/master_jo_node.dir/src/player.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/master_jo_node.dir/build.make:104: CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_jo_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

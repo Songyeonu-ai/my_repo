@@ -1,0 +1,16 @@
+/home/yu/colcon_ws/install/ik_walk/lib/ik_walk/ik_walk
+/home/yu/colcon_ws/install/ik_walk/share/ament_index/resource_index/package_run_dependencies/ik_walk
+/home/yu/colcon_ws/install/ik_walk/share/ament_index/resource_index/parent_prefix_path/ik_walk
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/environment/ament_prefix_path.sh
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/environment/ament_prefix_path.dsv
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/environment/path.sh
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/environment/path.dsv
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/local_setup.bash
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/local_setup.sh
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/local_setup.zsh
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/local_setup.dsv
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/package.dsv
+/home/yu/colcon_ws/install/ik_walk/share/ament_index/resource_index/packages/ik_walk
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/cmake/ik_walkConfig.cmake
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/cmake/ik_walkConfig-version.cmake
+/home/yu/colcon_ws/install/ik_walk/share/ik_walk/package.xml

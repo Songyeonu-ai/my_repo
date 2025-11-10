@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target dynamixel_rdk_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable dynamixel_rdk_node[0m
+[100%] Built target dynamixel_rdk_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros//config/dynamixel.yaml
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros//launch/dynamixel_rdk.launch.py
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/lib/dynamixel_rdk_ros/dynamixel_rdk_node
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/ament_index/resource_index/package_run_dependencies/dynamixel_rdk_ros
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/ament_index/resource_index/parent_prefix_path/dynamixel_rdk_ros
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/path.sh
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/path.dsv
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.bash
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.sh
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.zsh
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.dsv
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/package.dsv
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/ament_index/resource_index/packages/dynamixel_rdk_ros
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/cmake/dynamixel_rdk_rosConfig.cmake
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/cmake/dynamixel_rdk_rosConfig-version.cmake
+-- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/package.xml

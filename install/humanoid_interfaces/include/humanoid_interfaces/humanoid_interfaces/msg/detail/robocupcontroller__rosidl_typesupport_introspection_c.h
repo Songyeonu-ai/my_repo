@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_typesupport_introspection_c/humanoid_interfaces/msg/detail/robocupcontroller__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,104 @@
+[0.010s] Invoking command in '/home/yu/colcon_ws/build/robocup_vision25': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/robocup_vision25 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/robocup_vision25
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.424s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.425s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.458s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.498s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.594s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.632s] -- Looking for pthread.h
+[0.695s] -- Looking for pthread.h - found
+[0.696s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.768s] -- Found Threads: TRUE  
+[0.795s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.818s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.834s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.842s] -- Found OpenCV: /usr/local (found version "4.13.0") 
+[0.853s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[0.853s] -- Found humanoid_interfaces: 0.0.0 (/home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/cmake)
+[0.859s] -- Found dynamixel_rdk_msgs: 0.0.1 (/home/yu/colcon_ws/install/dynamixel_rdk_msgs/share/dynamixel_rdk_msgs/cmake)
+[0.869s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.929s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.929s] -- Configured cppcheck include dirs: /home/yu/colcon_ws/src/robocup_vision25/include
+[0.929s] -- Configured cppcheck exclude dirs and/or files: 
+[0.929s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.929s] -- Added test 'lint_cmake' to check CMake code style
+[0.929s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.929s] -- Added test 'uncrustify' to check C / C++ code style
+[0.929s] -- Configured uncrustify additional arguments: 
+[0.929s] -- Added test 'xmllint' to check XML markup files
+[0.929s] -- Configuring done
+[0.954s] -- Generating done
+[0.954s] -- Build files have been written to: /home/yu/colcon_ws/build/robocup_vision25
+[0.960s] Invoked command in '/home/yu/colcon_ws/build/robocup_vision25' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/robocup_vision25 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/robocup_vision25
+[0.961s] Invoking command in '/home/yu/colcon_ws/build/robocup_vision25': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/robocup_vision25 -- -j8 -l8
+[1.012s] [ 50%] [32mBuilding CXX object CMakeFiles/robocup_vision25.dir/src/robocup_vision25.cpp.o[0m
+[5.802s] In file included from [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/robocup_vision25.hpp:38[m[K,
+[5.803s]                  from [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/robocup_vision25.cpp:1[m[K:
+[5.803s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/../pan_tilt/pan_tilt.hpp:[m[K In member function ‘[01m[Kint PAN_TILT::mode(int)[m[K’:
+[5.803s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/../pan_tilt/pan_tilt.hpp:154:22:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.803s]   154 |           [01;35m[KScan_index == 3[m[K;
+[5.803s]       |           [01;35m[K~~~~~~~~~~~^~~~[m[K
+[5.803s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/../pan_tilt/pan_tilt.hpp:156:22:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.803s]   156 |           [01;35m[KScan_index == 0[m[K;
+[5.803s]       |           [01;35m[K~~~~~~~~~~~^~~~[m[K
+[6.043s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/robocup_vision25.cpp:[m[K In lambda function:
+[6.044s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/robocup_vision25.cpp:35:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.044s]    35 |       [this]([01;35m[Kconst sensor_msgs::msg::CameraInfo::SharedPtr msg[m[K) {
+[6.044s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[12.390s] In file included from [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/robocup_vision25.hpp:38[m[K,
+[12.390s]                  from [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/robocup_vision25.cpp:1[m[K:
+[12.390s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/../pan_tilt/pan_tilt.hpp:[m[K In member function ‘[01m[Kint PAN_TILT::mode(int)[m[K’:
+[12.390s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/../pan_tilt/pan_tilt.hpp:108:16:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[12.390s]   108 |         } else [01;35m[Kif[m[K (no_ball_cnt > 30)  // 공이 특정 시간동안 안잡힘
+[12.390s]       |                [01;35m[K^~[m[K
+[12.390s] [01m[K/home/yu/colcon_ws/src/robocup_vision25/src/../include/robocup_vision25/../pan_tilt/pan_tilt.hpp:137:7:[m[K [01;36m[Knote: [m[Khere
+[12.390s]   137 |       [01;36m[Kcase[m[K 3: {
+[12.390s]       |       [01;36m[K^~~~[m[K
+[18.310s] [100%] [32m[1mLinking CXX executable robocup_vision25[0m
+[19.016s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+[19.016s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[19.483s] [100%] Built target robocup_vision25
+[19.494s] Invoked command in '/home/yu/colcon_ws/build/robocup_vision25' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/robocup_vision25 -- -j8 -l8
+[19.496s] Invoking command in '/home/yu/colcon_ws/build/robocup_vision25': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/robocup_vision25
+[19.500s] -- Install configuration: ""
+[19.500s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/lib/robocup_vision25/robocup_vision25
+[19.504s] -- Set runtime path of "/home/yu/colcon_ws/install/robocup_vision25/lib/robocup_vision25/robocup_vision25" to ""
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/launch
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/launch/robocup_vision25_launch.py
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/ament_index/resource_index/package_run_dependencies/robocup_vision25
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/ament_index/resource_index/parent_prefix_path/robocup_vision25
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/ament_prefix_path.sh
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/ament_prefix_path.dsv
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/path.sh
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/path.dsv
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.bash
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.sh
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.zsh
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.dsv
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/package.dsv
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/ament_index/resource_index/packages/robocup_vision25
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/cmake/robocup_vision25Config.cmake
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/cmake/robocup_vision25Config-version.cmake
+[19.504s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/package.xml
+[19.506s] Invoked command in '/home/yu/colcon_ws/build/robocup_vision25' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/robocup_vision25

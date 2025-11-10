@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000723] (-) JobUnselected: {'identifier': 'dynamixel_rdk_msgs'}
+[0.000750] (-) JobUnselected: {'identifier': 'dynamixel_rdk_ros'}
+[0.000760] (-) JobUnselected: {'identifier': 'ebimu'}
+[0.000768] (-) JobUnselected: {'identifier': 'humanoid_interfaces'}
+[0.000775] (-) JobUnselected: {'identifier': 'ik_walk'}
+[0.000782] (-) JobUnselected: {'identifier': 'ocam_ros2'}
+[0.000788] (-) JobUnselected: {'identifier': 'robocup_vision25'}
+[0.000795] (-) JobUnselected: {'identifier': 'tune_walk'}
+[0.000803] (master_jo) JobQueued: {'identifier': 'master_jo', 'dependencies': OrderedDict()}
+[0.000812] (master_jo) JobStarted: {'identifier': 'master_jo'}
+[0.005572] (master_jo) JobProgress: {'identifier': 'master_jo', 'progress': 'cmake'}
+[0.006236] (master_jo) JobProgress: {'identifier': 'master_jo', 'progress': 'build'}
+[0.006259] (master_jo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yu/colcon_ws/build/master_jo', '--', '-j8', '-l8'], 'cwd': '/home/yu/colcon_ws/build/master_jo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yu/colcon_ws/install/dynamixel_rdk_msgs/lib:/home/yu/colcon_ws/install/humanoid_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yu'), ('OLDPWD', '/home/yu/colcon_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/yu/.nvm/versions/node/v22.21.1/bin'), ('NVM_INC', '/home/yu/.nvm/versions/node/v22.21.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '793'), ('SYSTEMD_EXEC_PID', '1390'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '117290'), ('NVM_DIR', '/home/yu/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yu/colcon_ws/install:/home/yu/ros2_ws/install:/home/yu/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yu'), ('JOURNAL_STREAM', '8:14029'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yu'), ('STM32_PRG_PATH', '/home/yu/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yu/.nvm/versions/node/v22.21.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yu:@/tmp/.ICE-unix/910,unix/yu:/tmp/.ICE-unix/910'), ('INVOCATION_ID', '7ef626dc8b3643c4880be660672d5c52'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XCW4F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/install/python_parameter_tutorial:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea71cf9-c793-4f47-9a86-c26070986e3f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yu/colcon_ws/build/master_jo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yu/colcon_ws/install/dynamixel_rdk_msgs/local/lib/python3.10/dist-packages:/home/yu/ros2_ws/install/python_parameter_tutorial/lib/python3.10/site-packages:/home/yu/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:/home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.037935] (master_jo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target master_jo_node\x1b[0m\n'}
+[0.050290] (master_jo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/forward.cpp.o\x1b[0m\n'}
+[0.053726] (master_jo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o\x1b[0m\n'}
+[0.053836] (master_jo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/player.cpp.o\x1b[0m\n'}
+[0.100023] (-) TimerEvent: {}
+[0.201750] (-) TimerEvent: {}
+[0.301984] (-) TimerEvent: {}
+[0.402222] (-) TimerEvent: {}
+[0.502470] (-) TimerEvent: {}
+[0.602827] (-) TimerEvent: {}
+[0.703073] (-) TimerEvent: {}
+[0.803326] (-) TimerEvent: {}
+[0.903580] (-) TimerEvent: {}
+[1.004640] (-) TimerEvent: {}
+[1.104969] (-) TimerEvent: {}
+[1.205300] (-) TimerEvent: {}
+[1.305631] (-) TimerEvent: {}
+[1.405996] (-) TimerEvent: {}
+[1.411305] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void master_jo::Player::selectRobotState(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.411454] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:48:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KisPenalty\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.411499] (master_jo) StderrLine: {'line': b'   48 | void Player::selectRobotState(\x1b[01;35m\x1b[Kbool isPenalty\x1b[m\x1b[K) {\n'}
+[1.411643] (master_jo) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.414478] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool master_jo::Player::visionPublish(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.414622] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.414661] (master_jo) StderrLine: {'line': b'  113 | bool Player::visionPublish(int scan_mode, \x1b[01;35m\x1b[Kint pan\x1b[m\x1b[K, int tilt) {\n'}
+[1.414699] (master_jo) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.414737] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/player.cpp:113:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktilt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.414771] (master_jo) StderrLine: {'line': b'  113 | bool Player::visionPublish(int scan_mode, int pan, \x1b[01;35m\x1b[Kint tilt\x1b[m\x1b[K) {\n'}
+[1.414804] (master_jo) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.506135] (-) TimerEvent: {}
+[1.606470] (-) TimerEvent: {}
+[1.612405] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_configure(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.612552] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:16:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.612598] (master_jo) StderrLine: {'line': b'   16 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.612634] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.618502] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.618574] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:93:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.618625] (master_jo) StderrLine: {'line': b'   93 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.618658] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.619281] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.619319] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:119:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.619362] (master_jo) StderrLine: {'line': b'  119 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.619394] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.619479] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.619530] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:138:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.619567] (master_jo) StderrLine: {'line': b'  138 | MasterJoNode::on_cleanup(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.619598] (master_jo) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.619686] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_shutdown(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.619819] (master_jo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:146:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.619860] (master_jo) StderrLine: {'line': b'  146 |     \x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State &previous_state\x1b[m\x1b[K) {\n'}
+[1.619891] (master_jo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.706600] (-) TimerEvent: {}
+[1.806952] (-) TimerEvent: {}
+[1.907983] (-) TimerEvent: {}
+[2.008221] (-) TimerEvent: {}
+[2.108447] (-) TimerEvent: {}
+[2.209036] (-) TimerEvent: {}
+[2.309318] (-) TimerEvent: {}
+[2.409861] (-) TimerEvent: {}
+[2.510739] (-) TimerEvent: {}
+[2.611908] (-) TimerEvent: {}
+[2.712209] (-) TimerEvent: {}
+[2.812652] (-) TimerEvent: {}
+[2.913625] (-) TimerEvent: {}
+[3.016905] (-) TimerEvent: {}
+[3.117261] (-) TimerEvent: {}
+[3.217616] (-) TimerEvent: {}
+[3.318029] (-) TimerEvent: {}
+[3.418263] (-) TimerEvent: {}
+[3.519751] (-) TimerEvent: {}
+[3.619983] (-) TimerEvent: {}
+[3.720225] (-) TimerEvent: {}
+[3.820461] (-) TimerEvent: {}
+[3.920720] (-) TimerEvent: {}
+[4.020952] (-) TimerEvent: {}
+[4.121174] (-) TimerEvent: {}
+[4.224819] (-) TimerEvent: {}
+[4.325053] (-) TimerEvent: {}
+[4.425899] (-) TimerEvent: {}
+[4.526351] (-) TimerEvent: {}
+[4.626812] (-) TimerEvent: {}
+[4.727184] (-) TimerEvent: {}
+[4.827445] (-) TimerEvent: {}
+[4.927777] (-) TimerEvent: {}
+[5.028155] (-) TimerEvent: {}
+[5.128402] (-) TimerEvent: {}
+[5.228627] (-) TimerEvent: {}
+[5.328902] (-) TimerEvent: {}
+[5.429137] (-) TimerEvent: {}
+[5.529382] (-) TimerEvent: {}
+[5.629669] (-) TimerEvent: {}
+[5.729900] (-) TimerEvent: {}
+[5.830150] (-) TimerEvent: {}
+[5.930410] (-) TimerEvent: {}
+[6.030680] (-) TimerEvent: {}
+[6.130915] (-) TimerEvent: {}
+[6.231295] (-) TimerEvent: {}
+[6.331628] (-) TimerEvent: {}
+[6.431944] (-) TimerEvent: {}
+[6.532196] (-) TimerEvent: {}
+[6.632537] (-) TimerEvent: {}
+[6.732833] (-) TimerEvent: {}
+[6.833100] (-) TimerEvent: {}
+[6.933426] (-) TimerEvent: {}
+[7.033985] (-) TimerEvent: {}
+[7.134280] (-) TimerEvent: {}
+[7.234593] (-) TimerEvent: {}
+[7.334892] (-) TimerEvent: {}
+[7.435126] (-) TimerEvent: {}
+[7.535528] (-) TimerEvent: {}
+[7.635834] (-) TimerEvent: {}
+[7.736152] (-) TimerEvent: {}
+[7.836442] (-) TimerEvent: {}
+[7.936821] (-) TimerEvent: {}
+[8.037164] (-) TimerEvent: {}
+[8.137588] (-) TimerEvent: {}
+[8.237829] (-) TimerEvent: {}
+[8.338167] (-) TimerEvent: {}
+[8.438392] (-) TimerEvent: {}
+[8.538702] (-) TimerEvent: {}
+[8.638929] (-) TimerEvent: {}
+[8.739153] (-) TimerEvent: {}
+[8.839591] (-) TimerEvent: {}
+[8.939925] (-) TimerEvent: {}
+[9.040152] (-) TimerEvent: {}
+[9.140532] (-) TimerEvent: {}
+[9.240863] (-) TimerEvent: {}
+[9.341094] (-) TimerEvent: {}
+[9.441323] (-) TimerEvent: {}
+[9.541762] (-) TimerEvent: {}
+[9.642193] (-) TimerEvent: {}
+[9.742516] (-) TimerEvent: {}
+[9.842840] (-) TimerEvent: {}
+[9.943064] (-) TimerEvent: {}
+[10.043379] (-) TimerEvent: {}
+[10.143720] (-) TimerEvent: {}
+[10.244049] (-) TimerEvent: {}
+[10.344273] (-) TimerEvent: {}
+[10.444584] (-) TimerEvent: {}
+[10.544897] (-) TimerEvent: {}
+[10.645144] (-) TimerEvent: {}
+[10.745479] (-) TimerEvent: {}
+[10.845795] (-) TimerEvent: {}
+[10.946025] (-) TimerEvent: {}
+[11.046253] (-) TimerEvent: {}
+[11.146670] (-) TimerEvent: {}
+[11.246902] (-) TimerEvent: {}
+[11.347132] (-) TimerEvent: {}
+[11.447568] (-) TimerEvent: {}
+[11.547834] (-) TimerEvent: {}
+[11.648276] (-) TimerEvent: {}
+[11.748647] (-) TimerEvent: {}
+[11.849097] (-) TimerEvent: {}
+[11.949436] (-) TimerEvent: {}
+[12.049745] (-) TimerEvent: {}
+[12.150902] (-) TimerEvent: {}
+[12.251756] (-) TimerEvent: {}
+[12.352057] (-) TimerEvent: {}
+[12.452341] (-) TimerEvent: {}
+[12.552494] (-) TimerEvent: {}
+[12.652652] (-) TimerEvent: {}
+[12.752806] (-) TimerEvent: {}
+[12.852976] (-) TimerEvent: {}
+[12.953275] (-) TimerEvent: {}
+[13.053471] (-) TimerEvent: {}
+[13.153660] (-) TimerEvent: {}
+[13.224283] (master_jo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable master_jo_node\x1b[0m\n'}
+[13.253771] (-) TimerEvent: {}
+[13.354200] (-) TimerEvent: {}
+[13.454562] (-) TimerEvent: {}
+[13.555320] (-) TimerEvent: {}
+[13.655787] (-) TimerEvent: {}
+[13.756244] (-) TimerEvent: {}
+[13.856680] (-) TimerEvent: {}
+[13.957100] (-) TimerEvent: {}
+[14.057570] (-) TimerEvent: {}
+[14.158824] (-) TimerEvent: {}
+[14.259097] (-) TimerEvent: {}
+[14.359456] (-) TimerEvent: {}
+[14.459939] (-) TimerEvent: {}
+[14.560682] (-) TimerEvent: {}
+[14.660916] (-) TimerEvent: {}
+[14.715727] (master_jo) StdoutLine: {'line': b'[100%] Built target master_jo_node\n'}
+[14.726907] (master_jo) CommandEnded: {'returncode': 0}
+[14.727394] (master_jo) JobProgress: {'identifier': 'master_jo', 'progress': 'install'}
+[14.734772] (master_jo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yu/colcon_ws/build/master_jo'], 'cwd': '/home/yu/colcon_ws/build/master_jo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yu/colcon_ws/install/dynamixel_rdk_msgs/lib:/home/yu/colcon_ws/install/humanoid_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yu'), ('OLDPWD', '/home/yu/colcon_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/yu/.nvm/versions/node/v22.21.1/bin'), ('NVM_INC', '/home/yu/.nvm/versions/node/v22.21.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '793'), ('SYSTEMD_EXEC_PID', '1390'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '117290'), ('NVM_DIR', '/home/yu/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yu/colcon_ws/install:/home/yu/ros2_ws/install:/home/yu/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yu'), ('JOURNAL_STREAM', '8:14029'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yu'), ('STM32_PRG_PATH', '/home/yu/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yu/.nvm/versions/node/v22.21.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yu:@/tmp/.ICE-unix/910,unix/yu:/tmp/.ICE-unix/910'), ('INVOCATION_ID', '7ef626dc8b3643c4880be660672d5c52'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XCW4F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/install/python_parameter_tutorial:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea71cf9-c793-4f47-9a86-c26070986e3f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yu/colcon_ws/build/master_jo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yu/colcon_ws/install/dynamixel_rdk_msgs/local/lib/python3.10/dist-packages:/home/yu/ros2_ws/install/python_parameter_tutorial/lib/python3.10/site-packages:/home/yu/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:/home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble')]), 'shell': False}
+[14.738599] (master_jo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.739149] (master_jo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.739315] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo//config/params.yaml\n'}
+[14.744243] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo//launch/master_jo.launch.py\n'}
+[14.749847] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/lib/master_jo/master_jo_node\n'}
+[14.754795] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/package_run_dependencies/master_jo\n'}
+[14.760807] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/parent_prefix_path/master_jo\n'}
+[14.760964] (-) TimerEvent: {}
+[14.766112] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/ament_prefix_path.sh\n'}
+[14.770768] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/ament_prefix_path.dsv\n'}
+[14.775188] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/path.sh\n'}
+[14.780364] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/path.dsv\n'}
+[14.785218] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.bash\n'}
+[14.789837] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.sh\n'}
+[14.794946] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.zsh\n'}
+[14.800303] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.dsv\n'}
+[14.805707] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/package.dsv\n'}
+[14.811629] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/packages/master_jo\n'}
+[14.816237] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/cmake/master_joConfig.cmake\n'}
+[14.820729] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/cmake/master_joConfig-version.cmake\n'}
+[14.826248] (master_jo) StdoutLine: {'line': b'-- Symlinking: /home/yu/colcon_ws/install/master_jo/share/master_jo/package.xml\n'}
+[14.833614] (master_jo) CommandEnded: {'returncode': 0}
+[14.851355] (master_jo) JobEnded: {'identifier': 'master_jo', 'rc': 0}
+[14.851735] (-) EventReactorShutdown: {}

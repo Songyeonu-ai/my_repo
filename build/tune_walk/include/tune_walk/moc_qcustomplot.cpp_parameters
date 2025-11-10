@@ -1,0 +1,5 @@
+-I/home/yu/colcon_ws/src/tune_walk
+-I/home/yu/colcon_ws/build/tune_walk
+-o
+/home/yu/colcon_ws/build/tune_walk/include/tune_walk/moc_qcustomplot.cpp
+/home/yu/colcon_ws/src/tune_walk/include/tune_walk/qcustomplot.h

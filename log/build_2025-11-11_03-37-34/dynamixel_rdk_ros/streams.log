@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros': CMAKE_PREFIX_PATH=/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/dynamixel_rdk_ros -- -j8 -l8
+[0.052s] [100%] Built target dynamixel_rdk_node
+[0.064s] Invoked command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros' returned '0': CMAKE_PREFIX_PATH=/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/dynamixel_rdk_ros -- -j8 -l8
+[0.064s] Invoking command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros': CMAKE_PREFIX_PATH=/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/dynamixel_rdk_ros
+[0.069s] -- Install configuration: ""
+[0.069s] -- Execute custom install script
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros//config/dynamixel.yaml
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros//launch/dynamixel_rdk.launch.py
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/lib/dynamixel_rdk_ros/dynamixel_rdk_node
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/ament_index/resource_index/package_run_dependencies/dynamixel_rdk_ros
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/ament_index/resource_index/parent_prefix_path/dynamixel_rdk_ros
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/path.sh
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/environment/path.dsv
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.bash
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.sh
+[0.069s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.zsh
+[0.070s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/local_setup.dsv
+[0.070s] -- Symlinking: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/package.dsv
+[0.078s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/ament_index/resource_index/packages/dynamixel_rdk_ros
+[0.078s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/cmake/dynamixel_rdk_rosConfig.cmake
+[0.078s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/cmake/dynamixel_rdk_rosConfig-version.cmake
+[0.078s] -- Up-to-date symlink: /home/yu/colcon_ws/install/dynamixel_rdk_ros/share/dynamixel_rdk_ros/package.xml
+[0.079s] Invoked command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros' returned '0': CMAKE_PREFIX_PATH=/home/yu/colcon_ws/install/dynamixel_rdk_msgs:/home/yu/colcon_ws/install/tune_walk:/home/yu/colcon_ws/install/robocup_vision25:/home/yu/colcon_ws/install/ocam_ros2:/home/yu/colcon_ws/install/ik_walk:/home/yu/colcon_ws/install/ebimu:/home/yu/colcon_ws/install/dynamixel_rdk_ros:/home/yu/ros2_ws/install/serial_test:/home/yu/ros2_ws/src/install/serial_test:/home/yu/colcon_ws/install/humanoid_interfaces:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/dynamixel_rdk_ros

@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/zmp_msg__type_support.h

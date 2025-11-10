@@ -1,0 +1,5 @@
+-I/home/yu/colcon_ws/src/ebimu
+-I/home/yu/colcon_ws/build/ebimu
+-o
+/home/yu/colcon_ws/build/ebimu/include/ebimu/moc_e2box_imu_node.cpp
+/home/yu/colcon_ws/src/ebimu/include/ebimu/e2box_imu_node.hpp

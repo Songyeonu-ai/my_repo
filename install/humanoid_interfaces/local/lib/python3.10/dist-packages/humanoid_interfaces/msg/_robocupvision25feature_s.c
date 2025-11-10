@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_py/humanoid_interfaces/msg/_robocupvision25feature_s.c

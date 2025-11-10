@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/master_jo/ament_cmake_core/master_joConfig-version.cmake

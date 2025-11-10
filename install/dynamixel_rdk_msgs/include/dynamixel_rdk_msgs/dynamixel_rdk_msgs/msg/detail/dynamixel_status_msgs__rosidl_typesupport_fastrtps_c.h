@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_typesupport_fastrtps_c/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__rosidl_typesupport_fastrtps_c.h

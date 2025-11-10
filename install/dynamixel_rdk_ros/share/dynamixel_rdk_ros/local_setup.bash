@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/dynamixel_rdk_ros/ament_cmake_environment_hooks/local_setup.bash

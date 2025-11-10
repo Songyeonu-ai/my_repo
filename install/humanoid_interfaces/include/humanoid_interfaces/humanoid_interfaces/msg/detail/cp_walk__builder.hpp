@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_cpp/humanoid_interfaces/msg/detail/cp_walk__builder.hpp

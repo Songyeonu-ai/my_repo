@@ -1,0 +1,64 @@
+[0.006s] Invoking command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/dynamixel_rdk_ros
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.066s] -- The CXX compiler identification is GNU 11.4.0
+[0.070s] -- Detecting C compiler ABI info
+[0.108s] -- Detecting C compiler ABI info - done
+[0.111s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.112s] -- Detecting C compile features
+[0.112s] -- Detecting C compile features - done
+[0.113s] -- Detecting CXX compiler ABI info
+[0.163s] -- Detecting CXX compiler ABI info - done
+[0.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.166s] -- Detecting CXX compile features
+[0.166s] -- Detecting CXX compile features - done
+[0.167s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.249s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.280s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.349s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.355s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.388s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.389s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.441s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.454s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.480s] -- Looking for pthread.h
+[0.520s] -- Looking for pthread.h - found
+[0.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.568s] -- Found Threads: TRUE  
+[0.602s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.613s] -- Configuring done
+[0.617s] -- Generating done
+[0.618s] -- Build files have been written to: /home/yu/colcon_ws/build/dynamixel_rdk_ros
+[0.623s] Invoked command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/dynamixel_rdk_ros
+[0.625s] Invoking command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/dynamixel_rdk_ros -- -j8 -l8
+[0.654s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_ctrl.cpp.o[0m
+[0.654s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel.cpp.o[0m
+[0.654s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o[0m
+[0.846s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel.cpp:[m[K In member function ‘[01m[Kbool dynamixel_rdk_ros::Dynamixel::get_dynamixel_status(dynamixel::GroupSyncRead&)[m[K’:
+[0.846s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel.cpp:133:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_status_int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.846s]   133 |   int [01;35m[Kerror_status_int[m[K = static_cast<int>(error_status);
+[0.846s]       |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[0.873s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_ctrl.cpp:[m[K In member function ‘[01m[Kbool dynamixel_rdk_ros::DynamixelCtrl::read_dynamixel_status()[m[K’:
+[0.873s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_ctrl.cpp:337:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdynamixel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.873s]   337 |     for (auto & [01;35m[Kdynamixel[m[K : dynamixels) {
+[0.873s]       |                 [01;35m[K^~~~~~~~~[m[K
+[1.797s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:[m[K In member function ‘[01m[Kvoid dynamixel_rdk_ros::DynamixelRDKNode::dynamixel_callback(dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.797s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:210:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct dynamixel_rdk_msgs::msg::DynamixelMsgs_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmotor[m[K’
+[1.797s]   210 |   for (auto & motor : msg->[01;31m[Kmotor[m[K) {
+[1.797s]       |                            [01;31m[K^~~~~[m[K
+[1.797s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:211:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class dynamixel_rdk_ros::DynamixelCtrl[m[K’ {aka ‘[01m[Kclass dynamixel_rdk_ros::DynamixelCtrl[m[K’} has no member named ‘[01m[Ksingle_write[m[K’; did you mean ‘[01m[Ksync_write[m[K’?
+[1.797s]   211 |     dynamixel_ctrl_->[01;31m[Ksingle_write[m[K(static_cast < uint8_t > 22, motor.goal_position, motor.profile_velocity,motor.profile_acceleration);
+[1.797s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[1.797s]       |                      [32m[Ksync_write[m[K
+[1.797s] [01m[K/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_ros/src/dynamixel_rdk_node.cpp:211:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before numeric constant
+[1.797s]   211 |     dynamixel_ctrl_->single_write(static_cast < uint8_t > [01;31m[K2[m[K[32m[K2[m[K, motor.goal_position, motor.profile_velocity,motor.profile_acceleration);
+[1.797s]       |                                                           [01;31m[K^[m[K[32m[K~[m[K
+[1.797s]       |                                                           [32m[K([m[K
+[3.372s] gmake[2]: *** [CMakeFiles/dynamixel_rdk_node.dir/build.make:76: CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o] Error 1
+[3.372s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_rdk_node.dir/all] Error 2
+[3.372s] gmake: *** [Makefile:146: all] Error 2
+[3.373s] Invoked command in '/home/yu/colcon_ws/build/dynamixel_rdk_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/dynamixel_rdk_ros -- -j8 -l8

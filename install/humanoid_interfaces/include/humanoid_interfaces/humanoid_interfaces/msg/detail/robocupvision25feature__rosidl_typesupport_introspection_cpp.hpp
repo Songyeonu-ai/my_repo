@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_typesupport_introspection_cpp/humanoid_interfaces/msg/detail/robocupvision25feature__rosidl_typesupport_introspection_cpp.hpp
