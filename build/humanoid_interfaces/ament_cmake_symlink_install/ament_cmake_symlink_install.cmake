@@ -439,6 +439,9 @@ ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" F
 # install(FILES "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/Pidtuning.idl" "DESTINATION" "share/humanoid_interfaces/msg")
 ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" FILES "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/Pidtuning.idl" "DESTINATION" "share/humanoid_interfaces/msg")
 
+# install(FILES "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/HumanPjVision.idl" "DESTINATION" "share/humanoid_interfaces/msg")
+ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" FILES "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/HumanPjVision.idl" "DESTINATION" "share/humanoid_interfaces/msg")
+
 # install(FILES "/home/yu/colcon_ws/src/humanoid_interfaces/msg/IkAngleSimMsg.msg" "DESTINATION" "share/humanoid_interfaces/msg")
 ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" FILES "/home/yu/colcon_ws/src/humanoid_interfaces/msg/IkAngleSimMsg.msg" "DESTINATION" "share/humanoid_interfaces/msg")
 
@@ -519,6 +522,9 @@ ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" F
 
 # install(FILES "/home/yu/colcon_ws/src/humanoid_interfaces/msg/Pidtuning.msg" "DESTINATION" "share/humanoid_interfaces/msg")
 ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" FILES "/home/yu/colcon_ws/src/humanoid_interfaces/msg/Pidtuning.msg" "DESTINATION" "share/humanoid_interfaces/msg")
+
+# install(FILES "/home/yu/colcon_ws/src/humanoid_interfaces/msg/HumanPjVision.msg" "DESTINATION" "share/humanoid_interfaces/msg")
+ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" FILES "/home/yu/colcon_ws/src/humanoid_interfaces/msg/HumanPjVision.msg" "DESTINATION" "share/humanoid_interfaces/msg")
 
 # install(FILES "/home/yu/colcon_ws/build/humanoid_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/humanoid_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/yu/colcon_ws/src/humanoid_interfaces" FILES "/home/yu/colcon_ws/build/humanoid_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/humanoid_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

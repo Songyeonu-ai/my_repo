@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_typesupport_introspection_cpp/humanoid_interfaces/msg/detail/human_pj_vision__rosidl_typesupport_introspection_cpp.hpp

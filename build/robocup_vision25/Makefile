@@ -198,24 +198,24 @@ robocup_vision25_uninstall/fast:
 .PHONY : robocup_vision25_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named robocup_vision25
+# Target rules for targets named robocup_vision25_node
 
 # Build rule for target.
-robocup_vision25: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robocup_vision25
-.PHONY : robocup_vision25
+robocup_vision25_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robocup_vision25_node
+.PHONY : robocup_vision25_node
 
 # fast build rule for target.
-robocup_vision25/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25.dir/build.make CMakeFiles/robocup_vision25.dir/build
-.PHONY : robocup_vision25/fast
+robocup_vision25_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25_node.dir/build.make CMakeFiles/robocup_vision25_node.dir/build
+.PHONY : robocup_vision25_node/fast
 
 src/robocup_vision25.o: src/robocup_vision25.cpp.o
 .PHONY : src/robocup_vision25.o
 
 # target to build an object file
 src/robocup_vision25.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25.dir/build.make CMakeFiles/robocup_vision25.dir/src/robocup_vision25.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25_node.dir/build.make CMakeFiles/robocup_vision25_node.dir/src/robocup_vision25.cpp.o
 .PHONY : src/robocup_vision25.cpp.o
 
 src/robocup_vision25.i: src/robocup_vision25.cpp.i
@@ -223,7 +223,7 @@ src/robocup_vision25.i: src/robocup_vision25.cpp.i
 
 # target to preprocess a source file
 src/robocup_vision25.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25.dir/build.make CMakeFiles/robocup_vision25.dir/src/robocup_vision25.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25_node.dir/build.make CMakeFiles/robocup_vision25_node.dir/src/robocup_vision25.cpp.i
 .PHONY : src/robocup_vision25.cpp.i
 
 src/robocup_vision25.s: src/robocup_vision25.cpp.s
@@ -231,7 +231,7 @@ src/robocup_vision25.s: src/robocup_vision25.cpp.s
 
 # target to generate assembly for a file
 src/robocup_vision25.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25.dir/build.make CMakeFiles/robocup_vision25.dir/src/robocup_vision25.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robocup_vision25_node.dir/build.make CMakeFiles/robocup_vision25_node.dir/src/robocup_vision25.cpp.s
 .PHONY : src/robocup_vision25.cpp.s
 
 # Help Target
@@ -249,7 +249,7 @@ help:
 	@echo "... test"
 	@echo "... robocup_vision25_uninstall"
 	@echo "... uninstall"
-	@echo "... robocup_vision25"
+	@echo "... robocup_vision25_node"
 	@echo "... src/robocup_vision25.o"
 	@echo "... src/robocup_vision25.i"
 	@echo "... src/robocup_vision25.s"

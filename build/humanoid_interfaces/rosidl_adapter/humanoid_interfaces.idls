@@ -25,3 +25,4 @@
 /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/Robocupcontroller.idl
 /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/MotionOperator.idl
 /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/Pidtuning.idl
+/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/HumanPjVision.idl

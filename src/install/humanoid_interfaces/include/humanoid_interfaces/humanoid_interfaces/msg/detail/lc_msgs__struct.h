@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/lc_msgs__struct.h

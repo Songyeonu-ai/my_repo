@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/motion_operator__type_support.h

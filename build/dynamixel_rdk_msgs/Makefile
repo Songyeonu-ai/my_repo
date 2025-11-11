@@ -315,17 +315,17 @@ dynamixel_rdk_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : dynamixel_rdk_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_dynamixel_rdk_msgs
+# Target rules for targets named ament_cmake_python_copy_dynamixel_rdk_msgs
 
 # Build rule for target.
-ament_cmake_python_symlink_dynamixel_rdk_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_dynamixel_rdk_msgs
-.PHONY : ament_cmake_python_symlink_dynamixel_rdk_msgs
+ament_cmake_python_copy_dynamixel_rdk_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_dynamixel_rdk_msgs
+.PHONY : ament_cmake_python_copy_dynamixel_rdk_msgs
 
 # fast build rule for target.
-ament_cmake_python_symlink_dynamixel_rdk_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamixel_rdk_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamixel_rdk_msgs.dir/build
-.PHONY : ament_cmake_python_symlink_dynamixel_rdk_msgs/fast
+ament_cmake_python_copy_dynamixel_rdk_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamixel_rdk_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamixel_rdk_msgs.dir/build
+.PHONY : ament_cmake_python_copy_dynamixel_rdk_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_dynamixel_rdk_msgs_egg
@@ -1259,7 +1259,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_dynamixel_rdk_msgs_egg"
-	@echo "... ament_cmake_python_symlink_dynamixel_rdk_msgs"
+	@echo "... ament_cmake_python_copy_dynamixel_rdk_msgs"
 	@echo "... dynamixel_rdk_msgs"
 	@echo "... dynamixel_rdk_msgs__cpp"
 	@echo "... dynamixel_rdk_msgs__py"

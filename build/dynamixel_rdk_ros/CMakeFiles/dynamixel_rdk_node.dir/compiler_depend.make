@@ -1225,29 +1225,29 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__struct.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__struct.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__struct.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__builder.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__traits.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__traits.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__builder.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__traits.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_control_msgs.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__struct.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__struct.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__builder.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__traits.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__traits.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_msgs.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__builder.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__builder.hpp \
-  /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_control_msgs.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__struct.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__struct.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__builder.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__traits.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__traits.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_msgs.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__builder.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__builder.hpp \
+  /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
@@ -1269,23 +1269,23 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__traits.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__builder.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__builder.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__struct.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__struct.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_control_msgs.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__struct.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__traits.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_control_msgs.hpp:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__builder.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__struct.hpp:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__struct.hpp:
 
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp:
 
@@ -1360,6 +1360,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
@@ -1449,8 +1451,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__struct.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
@@ -1473,8 +1473,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
@@ -1490,6 +1488,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__builder.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
@@ -1508,6 +1508,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
@@ -1609,6 +1611,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /usr/include/c++/11/string_view:
 
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
@@ -1637,8 +1641,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__traits.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
@@ -1646,6 +1648,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.hpp:
 
 /usr/include/ctype.h:
 
@@ -1674,8 +1678,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__struct.hpp:
 
 /usr/include/c++/11/typeinfo:
 
@@ -1897,6 +1899,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
@@ -1948,8 +1952,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/pthread.h:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -2034,8 +2036,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/rcl/rcl/allocator.h:
 
 /usr/include/c++/11/bits/vector.tcc:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -2159,8 +2159,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__builder.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -2203,19 +2201,21 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__builder.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -2275,11 +2275,13 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_msgs.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
@@ -2533,8 +2535,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /opt/ros/humble/include/rcl/rcl/time.h:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__traits.hpp:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
@@ -2542,8 +2542,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp:
 
 /opt/ros/humble/include/rmw/rmw/event.h:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_msgs.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
@@ -2554,6 +2552,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__struct.hpp:
 
 /usr/include/c++/11/clocale:
 
@@ -2635,6 +2635,8 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.hpp:
+
 /usr/include/wctype.h:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
@@ -2691,7 +2693,7 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 
 /opt/ros/humble/include/rmw/rmw/impl/config.h:
 
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.hpp:
+/home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp:
 
 /usr/include/alloca.h:
 
@@ -2714,8 +2716,6 @@ CMakeFiles/dynamixel_rdk_node.dir/src/dynamixel_rdk_node.cpp.o: /home/yu/colcon_
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
-
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__builder.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/utils.hpp:
 

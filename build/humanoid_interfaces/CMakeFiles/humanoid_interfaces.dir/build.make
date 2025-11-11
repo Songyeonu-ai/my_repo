@@ -93,6 +93,7 @@ CMakeFiles/humanoid_interfaces: /home/yu/colcon_ws/src/humanoid_interfaces/msg/G
 CMakeFiles/humanoid_interfaces: /home/yu/colcon_ws/src/humanoid_interfaces/msg/Robocupcontroller.msg
 CMakeFiles/humanoid_interfaces: /home/yu/colcon_ws/src/humanoid_interfaces/msg/MotionOperator.msg
 CMakeFiles/humanoid_interfaces: /home/yu/colcon_ws/src/humanoid_interfaces/msg/Pidtuning.msg
+CMakeFiles/humanoid_interfaces: /home/yu/colcon_ws/src/humanoid_interfaces/msg/HumanPjVision.msg
 CMakeFiles/humanoid_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/humanoid_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/humanoid_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

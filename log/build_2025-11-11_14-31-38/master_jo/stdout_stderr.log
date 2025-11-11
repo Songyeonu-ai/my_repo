@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target master_jo_node[0m
+[100%] Built target master_jo_node
+-- Install configuration: ""
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo//config
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo//config/params.yaml
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo//launch
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo//launch/master_jo.launch.py
+-- Installing: /home/yu/colcon_ws/install/master_jo/lib/master_jo/master_jo_node
+-- Set runtime path of "/home/yu/colcon_ws/install/master_jo/lib/master_jo/master_jo_node" to ""
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/package_run_dependencies/master_jo
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/parent_prefix_path/master_jo
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/ament_prefix_path.sh
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/ament_prefix_path.dsv
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/path.sh
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/path.dsv
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.bash
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.sh
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.zsh
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.dsv
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/package.dsv
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/packages/master_jo
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/cmake/master_joConfig.cmake
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/cmake/master_joConfig-version.cmake
+-- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/package.xml

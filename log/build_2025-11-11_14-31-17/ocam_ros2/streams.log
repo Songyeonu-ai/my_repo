@@ -1,0 +1,9 @@
+[0.015s] Invoking command in '/home/yu/colcon_ws/build/ocam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/ocam_ros2 -- -j8 -l8
+[0.057s] [ 25%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/withrobot_camera.cpp.o[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/withrobot_utility.cpp.o[0m
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/oCam.cpp.o[0m
+[6.137s] [100%] [32m[1mLinking CXX executable ocam_ros2[0m
+[6.408s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.413
+[6.408s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+[6.408s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[6.619s] [100%] Built target ocam_ros2

@@ -1,0 +1,1 @@
+Invoking command in '/home/yu/colcon_ws/build/dynamixel_rdk_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_msgs -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/dynamixel_rdk_msgs

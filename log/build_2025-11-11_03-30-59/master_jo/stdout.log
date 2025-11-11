@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target master_jo_node[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/forward.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/player.cpp.o[0m

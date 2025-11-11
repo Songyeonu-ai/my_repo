@@ -9,6 +9,9 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__functions.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__struct.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__type_support.h
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__functions.h
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__struct.h
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__struct.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__type_support.h
@@ -83,6 +86,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/zmp_msg__type_support.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/gamecontroldata.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/gamecontrolreturndata.h
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/human_pj_vision.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/ik_angle_sim_msg.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/ik_com_msg.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/ik_coord_msg.h
@@ -113,6 +117,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/cp_walk__rosidl_typesupport_fastrtps_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontroldata__rosidl_typesupport_fastrtps_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__rosidl_typesupport_fastrtps_c.h
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__rosidl_typesupport_fastrtps_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__rosidl_typesupport_fastrtps_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_com_msg__rosidl_typesupport_fastrtps_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_coord_msg__rosidl_typesupport_fastrtps_c.h
@@ -151,6 +156,10 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__struct.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__traits.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__type_support.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__builder.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__struct.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__traits.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__type_support.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__builder.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__struct.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__traits.hpp
@@ -249,6 +258,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/zmp_msg__type_support.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/gamecontroldata.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/gamecontrolreturndata.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/human_pj_vision.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/ik_com_msg.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/ik_coord_msg.hpp
@@ -277,6 +287,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/cp_walk__rosidl_typesupport_fastrtps_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontroldata__rosidl_typesupport_fastrtps_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__rosidl_typesupport_fastrtps_cpp.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__rosidl_typesupport_fastrtps_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__rosidl_typesupport_fastrtps_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_com_msg__rosidl_typesupport_fastrtps_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_coord_msg__rosidl_typesupport_fastrtps_cpp.hpp
@@ -305,6 +316,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/cp_walk__rosidl_typesupport_introspection_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontroldata__rosidl_typesupport_introspection_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__rosidl_typesupport_introspection_c.h
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__rosidl_typesupport_introspection_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__rosidl_typesupport_introspection_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_com_msg__rosidl_typesupport_introspection_c.h
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_coord_msg__rosidl_typesupport_introspection_c.h
@@ -333,6 +345,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/cp_walk__rosidl_typesupport_introspection_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontroldata__rosidl_typesupport_introspection_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/gamecontrolreturndata__rosidl_typesupport_introspection_cpp.hpp
+/home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/human_pj_vision__rosidl_typesupport_introspection_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_angle_sim_msg__rosidl_typesupport_introspection_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_com_msg__rosidl_typesupport_introspection_cpp.hpp
 /home/yu/colcon_ws/install/humanoid_interfaces/include/humanoid_interfaces/humanoid_interfaces/msg/detail/ik_coord_msg__rosidl_typesupport_introspection_cpp.hpp
@@ -378,6 +391,8 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_gamecontroldata_s.c
 /home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_gamecontrolreturndata.py
 /home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_gamecontrolreturndata_s.c
+/home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_human_pj_vision.py
+/home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_human_pj_vision_s.c
 /home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_ik_angle_sim_msg.py
 /home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_ik_angle_sim_msg_s.c
 /home/yu/colcon_ws/install/humanoid_interfaces/local/lib/python3.10/dist-packages/humanoid_interfaces/msg/_ik_com_msg.py
@@ -456,6 +471,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/Robocupcontroller.idl
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/MotionOperator.idl
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/Pidtuning.idl
+/home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/HumanPjVision.idl
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/IkAngleSimMsg.msg
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/IkComMsg.msg
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/IkCoordMsg.msg
@@ -483,6 +499,7 @@
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/Robocupcontroller.msg
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/MotionOperator.msg
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/Pidtuning.msg
+/home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/msg/HumanPjVision.msg
 /home/yu/colcon_ws/install/humanoid_interfaces/share/ament_index/resource_index/package_run_dependencies/humanoid_interfaces
 /home/yu/colcon_ws/install/humanoid_interfaces/share/ament_index/resource_index/parent_prefix_path/humanoid_interfaces
 /home/yu/colcon_ws/install/humanoid_interfaces/share/humanoid_interfaces/environment/ament_prefix_path.sh

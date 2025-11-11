@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_typesupport_fastrtps_c/humanoid_interfaces/msg/detail/lc_msgs__rosidl_typesupport_fastrtps_c.h

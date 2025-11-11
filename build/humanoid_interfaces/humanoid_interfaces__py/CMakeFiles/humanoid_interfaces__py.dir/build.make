@@ -96,6 +96,7 @@ humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_robocupcontroller.py
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_motion_operator.py
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_pidtuning.py
+humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision.py
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/__init__.py
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_ik_angle_sim_msg_s.c
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_ik_com_msg_s.c
@@ -124,6 +125,7 @@ humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_robocupcontroller_s.c
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_motion_operator_s.c
 humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_pidtuning_s.c
+humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision_s.c
 
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -165,6 +167,7 @@ rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/humanoid_interfaces/msg/Robocupcontroller.idl
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/humanoid_interfaces/msg/MotionOperator.idl
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/humanoid_interfaces/msg/Pidtuning.idl
+rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/humanoid_interfaces/msg/HumanPjVision.idl
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -319,6 +322,9 @@ rosidl_generator_py/humanoid_interfaces/msg/_motion_operator.py: rosidl_generato
 rosidl_generator_py/humanoid_interfaces/msg/_pidtuning.py: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/humanoid_interfaces/msg/_pidtuning.py
 
+rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision.py: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision.py
+
 rosidl_generator_py/humanoid_interfaces/msg/__init__.py: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/humanoid_interfaces/msg/__init__.py
 
@@ -403,6 +409,9 @@ rosidl_generator_py/humanoid_interfaces/msg/_motion_operator_s.c: rosidl_generat
 rosidl_generator_py/humanoid_interfaces/msg/_pidtuning_s.c: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/humanoid_interfaces/msg/_pidtuning_s.c
 
+rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision_s.c: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision_s.c
+
 humanoid_interfaces__py: humanoid_interfaces__py/CMakeFiles/humanoid_interfaces__py
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_c.c
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -414,6 +423,8 @@ humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_gamecontro
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_gamecontroldata_s.c
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_gamecontrolreturndata.py
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_gamecontrolreturndata_s.c
+humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision.py
+humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_human_pj_vision_s.c
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_ik_angle_sim_msg.py
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_ik_angle_sim_msg_s.c
 humanoid_interfaces__py: rosidl_generator_py/humanoid_interfaces/msg/_ik_com_msg.py

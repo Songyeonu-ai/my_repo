@@ -1,1 +1,2 @@
-/home/yu/colcon_ws/build/robocup_vision25/ament_cmake_environment_hooks/local_setup.dsv
+source;share/robocup_vision25/environment/ament_prefix_path.sh
+source;share/robocup_vision25/environment/path.sh

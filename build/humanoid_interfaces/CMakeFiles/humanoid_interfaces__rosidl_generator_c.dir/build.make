@@ -109,6 +109,7 @@ rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: rosidl_adapter/hu
 rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: rosidl_adapter/humanoid_interfaces/msg/Robocupcontroller.idl
 rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: rosidl_adapter/humanoid_interfaces/msg/MotionOperator.idl
 rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: rosidl_adapter/humanoid_interfaces/msg/Pidtuning.idl
+rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: rosidl_adapter/humanoid_interfaces/msg/HumanPjVision.idl
 rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -497,6 +498,18 @@ rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__struct.h: rosidl_ge
 rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__type_support.h: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__type_support.h
 
+rosidl_generator_c/humanoid_interfaces/msg/human_pj_vision.h: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/human_pj_vision.h
+
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.h: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.h
+
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__struct.h: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__struct.h
+
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h
+
 rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c
 
@@ -577,6 +590,9 @@ rosidl_generator_c/humanoid_interfaces/msg/detail/motion_operator__functions.c: 
 
 rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c
+
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c
 
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c.o: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c.o: rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c
@@ -956,6 +972,20 @@ CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humano
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c -o CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c.s
 
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o: rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yu/colcon_ws/build/humanoid_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o -MF CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o.d -o CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o -c /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c
+
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c > CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.i
+
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c -o CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.s
+
 # Object files for target humanoid_interfaces__rosidl_generator_c
 humanoid_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c.o" \
@@ -984,7 +1014,8 @@ humanoid_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/gamecontrolreturndata__functions.c.o" \
 "CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/robocupcontroller__functions.c.o" \
 "CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/motion_operator__functions.c.o" \
-"CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c.o"
+"CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c.o" \
+"CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o"
 
 # External object files for target humanoid_interfaces__rosidl_generator_c
 humanoid_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -1016,6 +1047,7 @@ libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__r
 libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/robocupcontroller__functions.c.o
 libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/motion_operator__functions.c.o
 libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.c.o
+libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c.o
 libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/build.make
 libhumanoid_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libhumanoid_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
@@ -1023,7 +1055,7 @@ libhumanoid_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_in
 libhumanoid_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libhumanoid_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libhumanoid_interfaces__rosidl_generator_c.so: CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yu/colcon_ws/build/humanoid_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C shared library libhumanoid_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yu/colcon_ws/build/humanoid_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C shared library libhumanoid_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1047,6 +1079,10 @@ CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/gamecontrolreturndata__functions.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/gamecontrolreturndata__struct.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/gamecontrolreturndata__type_support.h
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.c
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.h
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__struct.h
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.c
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__functions.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/ik_angle_sim_msg__struct.h
@@ -1145,6 +1181,7 @@ CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/detail/zmp_msg__type_support.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/gamecontroldata.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/gamecontrolreturndata.h
+CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/human_pj_vision.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/ik_angle_sim_msg.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/ik_com_msg.h
 CMakeFiles/humanoid_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/humanoid_interfaces/msg/ik_coord_msg.h

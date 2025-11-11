@@ -1,1 +1,1 @@
-/home/yu/colcon_ws/build/robocup_vision25/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robocup_vision25
+rclpy;rclcpp;std_msgs;sensor_msgs;cv_bridge;ament_lint_auto;ament_lint_common

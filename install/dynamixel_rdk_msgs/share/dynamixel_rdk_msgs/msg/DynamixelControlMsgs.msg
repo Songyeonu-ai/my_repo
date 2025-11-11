@@ -1,1 +1,7 @@
-/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_msgs/msg/DynamixelControlMsgs.msg
+########################################
+# Messages
+########################################
+## Dynamixel Control Message
+########################################
+
+DynamixelMsgs[] motor_control # DynamixelMsgs

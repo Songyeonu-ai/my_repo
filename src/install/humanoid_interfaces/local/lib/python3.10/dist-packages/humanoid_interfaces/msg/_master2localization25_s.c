@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_generator_py/humanoid_interfaces/msg/_master2localization25_s.c

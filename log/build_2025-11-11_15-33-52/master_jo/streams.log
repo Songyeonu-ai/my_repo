@@ -1,0 +1,49 @@
+[0.016s] Invoking command in '/home/yu/colcon_ws/build/master_jo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/master_jo -- -j8 -l8
+[0.078s] [ 16%] [32mBuilding CXX object CMakeFiles/master_jo_node.dir/src/master_jo_node.cpp.o[0m
+[1.637s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[1.637s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:16:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.637s]    16 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.637s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.644s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.644s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:93:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.644s]    93 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.644s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.644s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[1.644s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:119:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.644s]   119 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.644s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.644s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[1.645s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:138:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.645s]   138 | MasterJoNode::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.645s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.645s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn master_jo::MasterJoNode::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[1.645s] [01m[K/home/yu/colcon_ws/src/master_jo/src/master_jo_node.cpp:146:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.645s]   146 |     [01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K) {
+[1.645s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[13.722s] [ 33%] [32m[1mLinking CXX executable master_jo_node[0m
+[15.197s] [100%] Built target master_jo_node
+[15.210s] Invoked command in '/home/yu/colcon_ws/build/master_jo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/master_jo -- -j8 -l8
+[15.212s] Invoking command in '/home/yu/colcon_ws/build/master_jo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/master_jo
+[15.217s] -- Install configuration: ""
+[15.217s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo//config
+[15.217s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo//config/params.yaml
+[15.217s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo//launch
+[15.217s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo//launch/master_jo.launch.py
+[15.217s] -- Installing: /home/yu/colcon_ws/install/master_jo/lib/master_jo/master_jo_node
+[15.223s] -- Set runtime path of "/home/yu/colcon_ws/install/master_jo/lib/master_jo/master_jo_node" to ""
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/package_run_dependencies/master_jo
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/parent_prefix_path/master_jo
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/ament_prefix_path.sh
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/ament_prefix_path.dsv
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/path.sh
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/environment/path.dsv
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.bash
+[15.223s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.sh
+[15.224s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.zsh
+[15.224s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/local_setup.dsv
+[15.224s] -- Installing: /home/yu/colcon_ws/install/master_jo/share/master_jo/package.dsv
+[15.224s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/ament_index/resource_index/packages/master_jo
+[15.224s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/cmake/master_joConfig.cmake
+[15.224s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/cmake/master_joConfig-version.cmake
+[15.224s] -- Up-to-date: /home/yu/colcon_ws/install/master_jo/share/master_jo/package.xml
+[15.225s] Invoked command in '/home/yu/colcon_ws/build/master_jo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/master_jo

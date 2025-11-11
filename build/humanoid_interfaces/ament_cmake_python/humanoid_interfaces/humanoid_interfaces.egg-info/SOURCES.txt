@@ -8,6 +8,7 @@ humanoid_interfaces/msg/__init__.py
 humanoid_interfaces/msg/_cp_walk.py
 humanoid_interfaces/msg/_gamecontroldata.py
 humanoid_interfaces/msg/_gamecontrolreturndata.py
+humanoid_interfaces/msg/_human_pj_vision.py
 humanoid_interfaces/msg/_ik_angle_sim_msg.py
 humanoid_interfaces/msg/_ik_com_msg.py
 humanoid_interfaces/msg/_ik_coord_msg.py

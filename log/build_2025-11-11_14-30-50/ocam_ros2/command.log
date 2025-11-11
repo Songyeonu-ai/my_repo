@@ -1,0 +1,1 @@
+Invoking command in '/home/yu/colcon_ws/build/ocam_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/ocam_ros2 -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/ocam_ros2

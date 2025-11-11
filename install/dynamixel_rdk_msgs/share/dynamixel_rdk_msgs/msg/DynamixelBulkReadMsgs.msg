@@ -1,1 +1,7 @@
-/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_msgs/msg/DynamixelBulkReadMsgs.msg
+########################################
+# Messages
+########################################
+## Dynamixel Bulk Read Message
+########################################
+
+DynamixelStatusMsgs[] status_msgs # DynamixelStatusMsgs

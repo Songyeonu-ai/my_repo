@@ -324,8 +324,22 @@ CMakeFiles/humanoid_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
   rosidl_generator_c/humanoid_interfaces/msg/detail/motion_operator__functions.h \
   rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__type_support.h \
   rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__struct.h \
-  rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.h
+  rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.h \
+  rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h \
+  rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.h
 
+
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
+
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__struct.h:
 
 rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.h:
 
@@ -401,6 +415,8 @@ rosidl_generator_c/humanoid_interfaces/msg/detail/lc_msgs__struct.h:
 
 rosidl_generator_c/humanoid_interfaces/msg/detail/cp_walk__type_support.h:
 
+rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h:
+
 rosidl_generator_c/humanoid_interfaces/msg/detail/zmp_msg__type_support.h:
 
 rosidl_generator_c/humanoid_interfaces/msg/detail/ik_pattern_msg__functions.h:
@@ -470,6 +486,8 @@ rosidl_generator_c/humanoid_interfaces/msg/detail/lc_msgs__type_support.h:
 /usr/include/unistd.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /usr/include/python3.10/cpython/dictobject.h:
 

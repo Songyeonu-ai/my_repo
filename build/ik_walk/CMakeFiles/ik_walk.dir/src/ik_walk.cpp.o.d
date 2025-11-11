@@ -637,29 +637,29 @@ CMakeFiles/ik_walk.dir/src/ik_walk.cpp.o: \
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_cpp/humanoid_interfaces/msg/detail/tune2_ik_msg__builder.hpp \
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_cpp/humanoid_interfaces/msg/detail/tune2_ik_msg__traits.hpp \
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_cpp/humanoid_interfaces/msg/detail/tune2_ik_msg__type_support.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__struct.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__struct.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__struct.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__builder.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__traits.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__traits.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__builder.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__traits.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_control_msgs.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__struct.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__struct.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__builder.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__traits.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__traits.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_msgs.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__builder.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__builder.hpp \
- /home/yu/colcon_ws/build/dynamixel_rdk_msgs/rosidl_generator_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_control_msgs.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__struct.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__struct.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__builder.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__traits.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__traits.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_msgs.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__builder.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/dynamixel_status_msgs.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__builder.hpp \
+ /home/yu/colcon_ws/install/dynamixel_rdk_msgs/include/dynamixel_rdk_msgs/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.hpp \
  /home/yu/colcon_ws/src/ik_walk/include/ik_walk/walk_pattern.hpp \
  /home/yu/colcon_ws/src/ik_walk/include/ik_walk/zmp_position_control.hpp \
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_cpp/humanoid_interfaces/msg/ik_com_msg.hpp \

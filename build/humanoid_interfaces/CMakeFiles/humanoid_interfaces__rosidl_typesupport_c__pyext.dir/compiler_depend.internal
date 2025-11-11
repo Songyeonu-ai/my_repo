@@ -326,4 +326,10 @@ CMakeFiles/humanoid_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__type_support.h
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__struct.h
  /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/pidtuning__functions.h
+ /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__type_support.h
+ /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__struct.h
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+ /home/yu/colcon_ws/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/detail/human_pj_vision__functions.h
 

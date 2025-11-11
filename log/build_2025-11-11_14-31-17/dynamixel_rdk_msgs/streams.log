@@ -1,0 +1,80 @@
+[0.011s] Invoking command in '/home/yu/colcon_ws/build/dynamixel_rdk_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/dynamixel_rdk_msgs -- -j8 -l8
+[0.039s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.052s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.059s] [  3%] Built target ament_cmake_python_copy_dynamixel_rdk_msgs
+[0.257s] running egg_info
+[0.258s] creating dynamixel_rdk_msgs.egg-info
+[0.258s] writing dynamixel_rdk_msgs.egg-info/PKG-INFO
+[0.258s] writing dependency_links to dynamixel_rdk_msgs.egg-info/dependency_links.txt
+[0.258s] writing top-level names to dynamixel_rdk_msgs.egg-info/top_level.txt
+[0.259s] writing manifest file 'dynamixel_rdk_msgs.egg-info/SOURCES.txt'
+[0.261s] reading manifest file 'dynamixel_rdk_msgs.egg-info/SOURCES.txt'
+[0.261s] writing manifest file 'dynamixel_rdk_msgs.egg-info/SOURCES.txt'
+[0.312s] [  3%] Built target ament_cmake_python_build_dynamixel_rdk_msgs_egg
+[0.557s] [  5%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__functions.c.o[0m
+[0.558s] [  7%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__functions.c.o[0m
+[0.565s] [  9%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__functions.c.o[0m
+[0.569s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__functions.c.o[0m
+[0.575s] [ 10%] Built target dynamixel_rdk_msgs__cpp
+[0.596s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.599s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.602s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.650s] [ 18%] [32m[1mLinking C shared library libdynamixel_rdk_msgs__rosidl_generator_c.so[0m
+[0.691s] [ 18%] Built target dynamixel_rdk_msgs__rosidl_generator_c
+[0.701s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.710s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.712s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.109s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.cpp.o[0m
+[1.111s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.cpp.o[0m
+[1.118s] [ 29%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.cpp.o[0m
+[1.296s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_rdk_msgs/msg/dynamixel_msgs__type_support.cpp.o[0m
+[1.364s] [ 32%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_rdk_msgs/msg/dynamixel_msgs__type_support.cpp.o[0m
+[1.365s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_rdk_msgs/msg/dynamixel_control_msgs__type_support.cpp.o[0m
+[1.400s] [ 36%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_rdk_msgs/msg/dynamixel_status_msgs__type_support.cpp.o[0m
+[1.418s] [ 38%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support.c.o[0m
+[1.439s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs__type_support.cpp.o[0m
+[1.487s] [ 41%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support.c.o[0m
+[1.504s] [ 43%] [32m[1mLinking CXX shared library libdynamixel_rdk_msgs__rosidl_typesupport_c.so[0m
+[1.541s] [ 45%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support.c.o[0m
+[1.575s] [ 45%] Built target dynamixel_rdk_msgs__rosidl_typesupport_c
+[1.610s] [ 47%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.c.o[0m
+[1.624s] [ 49%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support.cpp.o[0m
+[1.673s] [ 50%] [32m[1mLinking C shared library libdynamixel_rdk_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.686s] [ 52%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_rdk_msgs/msg/dynamixel_control_msgs__type_support.cpp.o[0m
+[1.704s] [ 54%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_rdk_msgs/msg/dynamixel_status_msgs__type_support.cpp.o[0m
+[1.717s] [ 56%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_rdk_msgs/msg/detail/dds_fastrtps/dynamixel_msgs__type_support.cpp.o[0m
+[1.751s] [ 56%] Built target dynamixel_rdk_msgs__rosidl_typesupport_introspection_c
+[1.762s] [ 58%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_rdk_msgs/msg/dynamixel_bulk_read_msgs__type_support.cpp.o[0m
+[1.928s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_rdk_msgs/msg/detail/dds_fastrtps/dynamixel_control_msgs__type_support.cpp.o[0m
+[1.979s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_rdk_msgs/msg/detail/dynamixel_msgs__type_support_c.cpp.o[0m
+[2.113s] [ 63%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_rdk_msgs/msg/detail/dynamixel_control_msgs__type_support_c.cpp.o[0m
+[2.126s] [ 65%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_rdk_msgs/msg/detail/dynamixel_status_msgs__type_support_c.cpp.o[0m
+[2.141s] [ 67%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_rdk_msgs/msg/detail/dynamixel_bulk_read_msgs__type_support_c.cpp.o[0m
+[2.222s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_rdk_msgs/msg/detail/dds_fastrtps/dynamixel_status_msgs__type_support.cpp.o[0m
+[2.284s] [ 70%] [32m[1mLinking CXX shared library libdynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.323s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_rdk_msgs/msg/detail/dds_fastrtps/dynamixel_bulk_read_msgs__type_support.cpp.o[0m
+[2.336s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_rdk_msgs__rosidl_typesupport_cpp.so[0m
+[2.416s] [ 74%] Built target dynamixel_rdk_msgs__rosidl_typesupport_cpp
+[2.446s] [ 74%] Built target dynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp
+[2.503s] [ 76%] [32m[1mLinking CXX shared library libdynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.578s] [ 76%] Built target dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c
+[2.805s] [ 78%] [32m[1mLinking CXX shared library libdynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.895s] [ 78%] Built target dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp
+[2.918s] [ 78%] Built target dynamixel_rdk_msgs
+[2.941s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.606s] [ 80%] Built target dynamixel_rdk_msgs__py
+[3.625s] [ 81%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_rdk_msgs/msg/_dynamixel_control_msgs_s.c.o[0m
+[3.625s] [ 83%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_rdk_msgs/msg/_dynamixel_msgs_s.c.o[0m
+[3.629s] [ 85%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_rdk_msgs/msg/_dynamixel_status_msgs_s.c.o[0m
+[3.631s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_rdk_msgs/msg/_dynamixel_bulk_read_msgs_s.c.o[0m
+[3.748s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_rdk_msgs/libdynamixel_rdk_msgs__rosidl_generator_py.so[0m
+[3.795s] [ 89%] Built target dynamixel_rdk_msgs__rosidl_generator_py
+[3.817s] [ 90%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_rdk_msgs/_dynamixel_rdk_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.818s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_rdk_msgs/_dynamixel_rdk_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.818s] [ 94%] [32mBuilding C object CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_rdk_msgs/_dynamixel_rdk_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.923s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_rdk_msgs/dynamixel_rdk_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.923s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_rdk_msgs/dynamixel_rdk_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.936s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_rdk_msgs/dynamixel_rdk_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.954s] [100%] Built target dynamixel_rdk_msgs__rosidl_typesupport_introspection_c__pyext
+[3.967s] [100%] Built target dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.975s] [100%] Built target dynamixel_rdk_msgs__rosidl_typesupport_c__pyext

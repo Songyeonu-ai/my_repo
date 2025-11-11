@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/withrobot_camera.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/withrobot_utility.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/oCam.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ocam_ros2[0m
+[100%] Built target ocam_ros2

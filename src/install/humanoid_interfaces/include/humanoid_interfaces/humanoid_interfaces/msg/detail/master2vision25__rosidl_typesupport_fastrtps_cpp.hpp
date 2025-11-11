@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_typesupport_fastrtps_cpp/humanoid_interfaces/msg/detail/master2vision25__rosidl_typesupport_fastrtps_cpp.hpp

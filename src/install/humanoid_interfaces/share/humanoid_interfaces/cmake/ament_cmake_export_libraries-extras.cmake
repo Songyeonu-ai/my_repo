@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

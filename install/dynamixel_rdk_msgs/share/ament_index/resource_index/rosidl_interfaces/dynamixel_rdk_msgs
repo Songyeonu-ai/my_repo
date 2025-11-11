@@ -1,1 +1,8 @@
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dynamixel_rdk_msgs
+msg/DynamixelBulkReadMsgs.idl
+msg/DynamixelBulkReadMsgs.msg
+msg/DynamixelControlMsgs.idl
+msg/DynamixelControlMsgs.msg
+msg/DynamixelMsgs.idl
+msg/DynamixelMsgs.msg
+msg/DynamixelStatusMsgs.idl
+msg/DynamixelStatusMsgs.msg

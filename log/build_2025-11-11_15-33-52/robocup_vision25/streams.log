@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/yu/colcon_ws/build/robocup_vision25': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/robocup_vision25 -- -j8 -l8
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target robocup_vision25_node[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/robocup_vision25_node.dir/src/robocup_vision25.cpp.o[0m
+[4.810s] [100%] [32m[1mLinking CXX executable robocup_vision25_node[0m
+[5.758s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+[5.759s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[6.132s] [100%] Built target robocup_vision25_node
+[6.147s] Invoked command in '/home/yu/colcon_ws/build/robocup_vision25' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/yu/colcon_ws/build/robocup_vision25 -- -j8 -l8
+[6.148s] Invoking command in '/home/yu/colcon_ws/build/robocup_vision25': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/robocup_vision25
+[6.150s] -- Install configuration: ""
+[6.152s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/lib/robocup_vision25/robocup_vision25_node
+[6.152s] -- Set runtime path of "/home/yu/colcon_ws/install/robocup_vision25/lib/robocup_vision25/robocup_vision25_node" to ""
+[6.153s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/ament_index/resource_index/package_run_dependencies/robocup_vision25
+[6.153s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/ament_index/resource_index/parent_prefix_path/robocup_vision25
+[6.153s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/ament_prefix_path.sh
+[6.154s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/ament_prefix_path.dsv
+[6.154s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/path.sh
+[6.154s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/environment/path.dsv
+[6.155s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.bash
+[6.155s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.sh
+[6.155s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.zsh
+[6.155s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/local_setup.dsv
+[6.155s] -- Installing: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/package.dsv
+[6.156s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/ament_index/resource_index/packages/robocup_vision25
+[6.156s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/cmake/robocup_vision25Config.cmake
+[6.156s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/cmake/robocup_vision25Config-version.cmake
+[6.156s] -- Up-to-date: /home/yu/colcon_ws/install/robocup_vision25/share/robocup_vision25/package.xml
+[6.159s] Invoked command in '/home/yu/colcon_ws/build/robocup_vision25' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/yu/colcon_ws/build/robocup_vision25

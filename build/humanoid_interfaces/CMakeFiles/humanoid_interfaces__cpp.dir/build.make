@@ -201,6 +201,11 @@ CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/ms
 CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/pidtuning__struct.hpp
 CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/pidtuning__traits.hpp
 CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/pidtuning__type_support.hpp
+CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/human_pj_vision.hpp
+CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__builder.hpp
+CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__struct.hpp
+CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__traits.hpp
+CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__type_support.hpp
 CMakeFiles/humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -245,6 +250,7 @@ rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: rosidl_adapte
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: rosidl_adapter/humanoid_interfaces/msg/Robocupcontroller.idl
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: rosidl_adapter/humanoid_interfaces/msg/MotionOperator.idl
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: rosidl_adapter/humanoid_interfaces/msg/Pidtuning.idl
+rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: rosidl_adapter/humanoid_interfaces/msg/HumanPjVision.idl
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -714,6 +720,21 @@ rosidl_generator_cpp/humanoid_interfaces/msg/detail/pidtuning__traits.hpp: rosid
 rosidl_generator_cpp/humanoid_interfaces/msg/detail/pidtuning__type_support.hpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/humanoid_interfaces/msg/detail/pidtuning__type_support.hpp
 
+rosidl_generator_cpp/humanoid_interfaces/msg/human_pj_vision.hpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/humanoid_interfaces/msg/human_pj_vision.hpp
+
+rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__builder.hpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__builder.hpp
+
+rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__struct.hpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__struct.hpp
+
+rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__traits.hpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__traits.hpp
+
+rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__type_support.hpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__type_support.hpp
+
 humanoid_interfaces__cpp: CMakeFiles/humanoid_interfaces__cpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/cp_walk.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/cp_walk__builder.hpp
@@ -728,6 +749,10 @@ humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/ga
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/gamecontrolreturndata__struct.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/gamecontrolreturndata__traits.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/gamecontrolreturndata__type_support.hpp
+humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__builder.hpp
+humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__struct.hpp
+humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__traits.hpp
+humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/human_pj_vision__type_support.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/ik_angle_sim_msg__builder.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/ik_angle_sim_msg__struct.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/ik_angle_sim_msg__traits.hpp
@@ -826,6 +851,7 @@ humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/zm
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/detail/zmp_msg__type_support.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/gamecontroldata.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/gamecontrolreturndata.hpp
+humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/human_pj_vision.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_angle_sim_msg.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_com_msg.hpp
 humanoid_interfaces__cpp: rosidl_generator_cpp/humanoid_interfaces/msg/ik_coord_msg.hpp

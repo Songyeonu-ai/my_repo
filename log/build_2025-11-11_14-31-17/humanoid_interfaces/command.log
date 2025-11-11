@@ -1,0 +1,1 @@
+Invoking command in '/home/yu/colcon_ws/build/humanoid_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yu/ros2_ws/install/python_parameter_tutorial:/opt/ros/humble /usr/bin/cmake /home/yu/colcon_ws/src/humanoid_interfaces -DCMAKE_INSTALL_PREFIX=/home/yu/colcon_ws/install/humanoid_interfaces

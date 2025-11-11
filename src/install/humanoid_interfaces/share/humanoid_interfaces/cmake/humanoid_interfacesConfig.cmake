@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/ament_cmake_core/humanoid_interfacesConfig.cmake

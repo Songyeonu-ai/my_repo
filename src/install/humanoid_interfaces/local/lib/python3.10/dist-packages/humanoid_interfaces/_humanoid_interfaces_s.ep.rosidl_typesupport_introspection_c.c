@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_generator_py/humanoid_interfaces/_humanoid_interfaces_s.ep.rosidl_typesupport_introspection_c.c

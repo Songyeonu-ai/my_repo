@@ -1,1 +1,2 @@
-/home/yu/colcon_ws/build/dynamixel_rdk_ros/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dynamixel_rdk_ros/environment/ament_prefix_path.sh
+source;share/dynamixel_rdk_ros/environment/path.sh

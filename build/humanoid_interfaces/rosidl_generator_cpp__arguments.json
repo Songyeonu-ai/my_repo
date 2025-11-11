@@ -29,7 +29,8 @@
     "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/Gamecontrolreturndata.idl",
     "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/Robocupcontroller.idl",
     "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/MotionOperator.idl",
-    "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/Pidtuning.idl"
+    "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/Pidtuning.idl",
+    "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces:msg/HumanPjVision.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -140,6 +141,7 @@
     "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/Robocupcontroller.idl",
     "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/MotionOperator.idl",
     "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/Pidtuning.idl",
+    "/home/yu/colcon_ws/build/humanoid_interfaces/rosidl_adapter/humanoid_interfaces/msg/HumanPjVision.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

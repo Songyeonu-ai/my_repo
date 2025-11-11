@@ -1,0 +1,1 @@
+/home/yu/colcon_ws/src/build/humanoid_interfaces/rosidl_generator_c/humanoid_interfaces/msg/master2localization25.h

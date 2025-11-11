@@ -1,1 +1,10 @@
-/home/yu/colcon_ws/src/dynamixel_rdk/dynamixel-RDK/dynamixel_rdk_msgs/msg/DynamixelMsgs.msg
+########################################
+# Messages
+########################################
+## Dynamixel Control Message
+########################################
+
+std_msgs/Header header
+float32 goal_position           # radian
+float32 profile_acceleration    # radian/s^2
+float32 profile_velocity        # radian/s

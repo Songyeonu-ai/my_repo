@@ -1,1 +1,4 @@
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dynamixel_rdk_msgs/environment/ament_prefix_path.sh
+source;share/dynamixel_rdk_msgs/environment/library_path.sh
+source;share/dynamixel_rdk_msgs/environment/path.sh
+source;share/dynamixel_rdk_msgs/environment/pythonpath.sh

@@ -9,7 +9,7 @@
 /home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_cpp.dir
 /home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_introspection_cpp.dir
 /home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_cpp.dir
-/home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/ament_cmake_python_symlink_dynamixel_rdk_msgs.dir
+/home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/ament_cmake_python_copy_dynamixel_rdk_msgs.dir
 /home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/ament_cmake_python_build_dynamixel_rdk_msgs_egg.dir
 /home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/dynamixel_rdk_msgs__rosidl_generator_py.dir
 /home/yu/colcon_ws/build/dynamixel_rdk_msgs/CMakeFiles/dynamixel_rdk_msgs__rosidl_typesupport_fastrtps_c__pyext.dir

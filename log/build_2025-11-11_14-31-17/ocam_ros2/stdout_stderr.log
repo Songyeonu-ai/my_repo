@@ -1,0 +1,8 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/withrobot_camera.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/withrobot_utility.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ocam_ros2.dir/src/oCam.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ocam_ros2[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.413
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[100%] Built target ocam_ros2

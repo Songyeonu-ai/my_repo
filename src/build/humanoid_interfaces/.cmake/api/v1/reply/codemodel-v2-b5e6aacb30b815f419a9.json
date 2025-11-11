@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-42f839fe84273d487bd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "humanoid_interfaces__py",
+					"jsonFile" : "directory-humanoid_interfaces__py-f679dbce47964ff69330.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yu/colcon_ws/src/build/humanoid_interfaces/humanoid_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "humanoid_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_humanoid_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_humanoid_interfaces_egg-43e774d06c119fca5055.json",
+					"name" : "ament_cmake_python_build_humanoid_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_humanoid_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_humanoid_interfaces-25f817194c6936d0a764.json",
+					"name" : "ament_cmake_python_symlink_humanoid_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces-326ef948687ac1cf3d50.json",
+					"name" : "humanoid_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__cpp-31930b4f423db5100e83.json",
+					"name" : "humanoid_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "humanoid_interfaces__py::@4179d874caaf94f628cf",
+					"jsonFile" : "target-humanoid_interfaces__py-7a313a88da930de27ad6.json",
+					"name" : "humanoid_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_generator_c-1d20c480e09d9dad7504.json",
+					"name" : "humanoid_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_generator_py-2c01dc5536a22205bbaf.json",
+					"name" : "humanoid_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_c-ee762c4e20f6d57effb6.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_c__pyext-f751fd5b817a45922e5c.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_cpp-5833a443f13fdd788000.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_fastrtps_c-6e208b99f49ee9a7ff68.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_fastrtps_c__pyext-13af8b770078cb68a4f0.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_fastrtps_cpp-a7a5aea1735f062c97e5.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_introspection_c-c9d8f8c989f6a0524874.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_introspection_c__pyext-87bd90523bc5e4ea7f99.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces__rosidl_typesupport_introspection_cpp-720b7aa4e3d64c5dbadf.json",
+					"name" : "humanoid_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_interfaces_uninstall-899e546b6bc63fc37a3b.json",
+					"name" : "humanoid_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-22edcddea5ab0bb4be6b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yu/colcon_ws/src/build/humanoid_interfaces",
+		"source" : "/home/yu/colcon_ws/src/humanoid_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
